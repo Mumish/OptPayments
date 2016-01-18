@@ -43,10 +43,10 @@
                     <path>/${project.build.finalName}</path>
                     <update>true</update>
                     <url>http://localhost:8080/manager/text</url>
-                    <username>ide</username>
-                    <password>ide</password>
+                    <server>TomcatServer</server>
                     <contextReloadable>true</contextReloadable>
-                  <!--  <webXml>src\main\webapp\WEB-INF\web.xml</webXml>  -->      
+ <!--                  
+                    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>  -->      
 
                 </configuration>
                 <executions>
