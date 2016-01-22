@@ -5,8 +5,6 @@
  */
 package by.st.optpaymentsdao.util;
 
-import by.st.optpaymentsdao.pojos.Client;
-import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -27,8 +25,7 @@ public class HibernateUtil {
             // Create the SessionFactory from hibernate.cfg.xml
             Configuration configuration = new Configuration();
             configuration.configure("hibernate.cfg.xml");
-          
-            configuration.addResource("Employee.hbm.xml");  
+
             StandardServiceRegistryBuilder ssrb = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
             return configuration.buildSessionFactory(ssrb.build());
         } catch (Throwable ex) {

@@ -7,6 +7,7 @@ package by.st.optpaymentsdao.db;
 
 import by.st.optpaymentsdao.pojos.Client;
 import by.st.optpaymentsdao.pojos.Employee;
+import by.st.optpaymentsdao.util.HibernateUtil;
 
 /**
  *
@@ -18,23 +19,9 @@ public class Main {
 
         BaseDao<Employee> dao = new BaseDao();
         Employee t = new Employee();
-        t.setFirstName("client fio");
+        t.setFirstName("client fio1");
         t.setLastName("client login");
         dao.saveOrUpdate(t);
-//        
-//////        logger.info("Trying to create a test connection with the database.");
-////        System.out.println("ня");
-////        Configuration configuration = new Configuration();
-////        configuration.configure("hibernate.cfg.xml");
-////        StandardServiceRegistryBuilder ssrb = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
-////        SessionFactory sessionFactory = configuration.buildSessionFactory(ssrb.build());
-////        Session session = sessionFactory.openSession();
-//////        logger.info("Test connection with the database created successfuly.");
-////        System.out.println("ня");
-////        logger.info("Trying to create a test connection with the database.");
-//        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
-//        Session session = sessionFactory.openSession();
-////        logger.info("Test connection with the database created successfuly.");
-//        System.out.println("ня");
+        HibernateUtil.getSessionFactory().close();
     }
 }

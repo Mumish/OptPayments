@@ -1,8 +1,5 @@
 package by.st.optpaymentsdao.pojos;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
 /**
  *
  * @author Mumish

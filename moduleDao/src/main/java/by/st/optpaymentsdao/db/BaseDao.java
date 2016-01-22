@@ -34,21 +34,25 @@ public class BaseDao<T> {
     }
 
     public T saveOrUpdate(T t) throws Exception {
-
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        Transaction transaction = session.beginTransaction();
+        Transaction transaction = null;
+        Session session = null;
         try {
             session = HibernateUtil.getSessionFactory().openSession();
+            transaction = session.beginTransaction();
 
             session.saveOrUpdate(t);
             session.update(t);
             transaction.commit();
         } catch (HibernateException e) {
             //log.error
-            transaction.rollback();
+            if (transaction != null) {
+                transaction.rollback();
+            }
             throw e;
         } finally {
-            session.close();
+            if (session != null) {
+                session.close();
+            }
         }
         return t;
     }
