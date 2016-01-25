@@ -31,3 +31,102 @@
 2016-01-25 19:28:58,041 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 19:28:58 MSK 2016, statusId=1
 2016-01-25 19:28:58,044 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 19:28:58 MSK 2016
 2016-01-25 19:28:58,064 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 19:28:58 MSK 2016
+2016-01-25 20:17:52,064 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-25 20:17:52,074 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-25 20:17:52,077 INFO  - HHH000206: hibernate.properties not found
+2016-01-25 20:17:52,079 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-25 20:17:52,106 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-25 20:17:52,107 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-25 20:17:52,159 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-25 20:17:52,189 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-25 20:17:52,254 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-25 20:17:52,276 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-25 20:17:52,294 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-25 20:17:52,312 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-25 20:17:52,327 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-25 20:17:52,421 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-25 20:17:52,428 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-25 20:17:52,429 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-25 20:17:52,429 INFO  - HHH000006: Autocommit mode: false
+2016-01-25 20:17:52,430 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-25 20:17:52,751 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-25 20:17:52,847 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-25 20:17:52,852 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-25 20:17:53,229 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-25 20:17:53,708 INFO  - HHH000230: Schema export complete
+2016-01-25 20:17:53,861 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:17:53,896 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:17:53,903 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,928 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,930 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,951 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,953 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,972 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:17:53 MSK 2016, statusId=1
+2016-01-25 20:17:53,974 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:17:53 MSK 2016
+2016-01-25 20:17:53,995 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:17:53 MSK 2016
+2016-01-25 20:18:29,202 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-25 20:18:29,211 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-25 20:18:29,215 INFO  - HHH000206: hibernate.properties not found
+2016-01-25 20:18:29,217 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-25 20:18:29,243 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-25 20:18:29,243 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-25 20:18:29,293 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-25 20:18:29,318 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-25 20:18:29,376 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-25 20:18:29,398 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-25 20:18:29,417 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-25 20:18:29,433 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-25 20:18:29,449 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-25 20:18:29,553 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-25 20:18:29,562 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-25 20:18:29,562 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-25 20:18:29,562 INFO  - HHH000006: Autocommit mode: false
+2016-01-25 20:18:29,564 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-25 20:18:29,865 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-25 20:18:29,932 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-25 20:18:29,936 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-25 20:18:30,307 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-25 20:18:30,753 INFO  - HHH000230: Schema export complete
+2016-01-25 20:18:30,914 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:18:30,958 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:18:30,966 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:18:30 MSK 2016, statusId=1
+2016-01-25 20:18:30,996 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:18:30 MSK 2016, statusId=1
+2016-01-25 20:18:30,998 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:18:30 MSK 2016, statusId=1
+2016-01-25 20:18:31,018 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:18:30 MSK 2016, statusId=1
+2016-01-25 20:18:31,021 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:18:31 MSK 2016, statusId=1
+2016-01-25 20:18:31,040 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:18:31 MSK 2016, statusId=1
+2016-01-25 20:18:31,042 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:18:31 MSK 2016
+2016-01-25 20:18:31,063 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:18:31 MSK 2016
+2016-01-25 20:21:37,834 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-25 20:21:37,842 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-25 20:21:37,845 INFO  - HHH000206: hibernate.properties not found
+2016-01-25 20:21:37,848 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-25 20:21:37,874 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-25 20:21:37,874 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-25 20:21:37,921 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-25 20:21:37,946 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-25 20:21:38,008 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-25 20:21:38,030 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-25 20:21:38,049 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-25 20:21:38,064 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-25 20:21:38,079 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-25 20:21:38,171 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-25 20:21:38,177 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-25 20:21:38,177 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-25 20:21:38,177 INFO  - HHH000006: Autocommit mode: false
+2016-01-25 20:21:38,179 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-25 20:21:38,500 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-25 20:21:38,567 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-25 20:21:38,571 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-25 20:21:38,934 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-25 20:21:39,409 INFO  - HHH000230: Schema export complete
+2016-01-25 20:21:39,551 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:21:39,584 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-25 20:21:39,590 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,617 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,619 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,638 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,640 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,661 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Mon Jan 25 20:21:39 MSK 2016, statusId=1
+2016-01-25 20:21:39,663 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:21:39 MSK 2016
+2016-01-25 20:21:39,683 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Mon Jan 25 20:21:39 MSK 2016

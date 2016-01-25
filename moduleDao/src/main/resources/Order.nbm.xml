@@ -4,7 +4,7 @@
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping package ="by.st.opt.payments.dao.pojos" auto-import="false" catalog="optpayments">
-    <class name="Order" table="T_ORDER">
+    <class name="Order">
         <meta attribute="class-description">
             This class contains the order detail. 
         </meta>
@@ -12,10 +12,10 @@
             <generator class="increment"/>
         </id>
         
-        <property name="clientId" column="F_CLIENTID" type="long"/>
-        <property name="num" column="F_NUM" type="string"/>
-        <property name="price" column="F_PRICE" type="double"/>
-        <property name="dateOpen" column="F_DATEOPEN" type="date"/>
-        <property name="statusId" column="F_STATUSID" type="int"/>
+        <property name="clientId" type="long"/>
+        <property name="num" type="string"/>
+        <property name="price" type="double"/>
+        <property name="dateOpen" type="date"/>
+        <property name="statusId" type="int"/>
     </class>
 </hibernate-mapping>
