@@ -49,3 +49,5 @@ Temporary Items
 /moduleDao/target/
 moduleJar/target/classes/by/st/App.class
 moduleJar/target/moduleJar-1.0-SNAPSHOT.jar
+/moduleDao/nbproject/
+*.netbeans_automatic_build

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package ="by.st.opt.payments.dao.pojos" auto-import="false" catalog="optpayments">
+    <class name="Payment" table="T_PAYMENT">
+        <meta attribute="class-description">
+            This class contains the payment detail. 
+        </meta>
+        <id name="id" type="long" column="id">
+            <generator class="increment"/>
+        </id>
+        
+        <property name="clientId" column="F_CLIENTID" type="long"/>
+        <property name="accountId" column="F_ACCOUNTID" type="long"/>
+        <property name="orderId" column="F_ORDERID" type="long"/>
+        <property name="amount" column="F_AMOUNT" type="double"/>
+        <property name="datePayment" column="F_DATEPAYMENT" type="date"/>
+    </class>
+</hibernate-mapping>
