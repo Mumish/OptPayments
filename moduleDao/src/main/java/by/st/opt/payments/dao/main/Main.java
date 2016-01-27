@@ -6,6 +6,7 @@
 package by.st.opt.payments.dao.main;
 
 import by.st.opt.payments.dao.db.BaseDao;
+import by.st.opt.payments.dao.db.ClientDao;
 import by.st.opt.payments.dao.db.Dao;
 import by.st.opt.payments.dao.pojos.Account;
 import by.st.opt.payments.dao.pojos.Client;
@@ -37,14 +38,14 @@ public class Main {
 
 //        new ClientDao().flush(7L, "new Name");
 /////
-            Dao<Client> daoClient = new BaseDao<>();
+            Dao<Client> daoClient = new BaseDao<>(Client.class);
             Client t = new Client();
             t.setFio("client fio2");
             t.setLogin("client login2");
             t.setPassword("client password");
             daoClient.saveOrUpdate(t);
             //////////////////
-            Dao<Account> daoAccount = new BaseDao<>();
+            Dao<Account> daoAccount = new BaseDao<>(Account.class);
             Account a = new Account();
             a.setClientId(t.getId());
             a.setNum("ACC-" + a.getClientId());
@@ -53,7 +54,7 @@ public class Main {
             a.setStatusId(1);
             daoAccount.saveOrUpdate(a);
             //////////////////
-            Dao<CreditCard> daoCard = new BaseDao<>();
+            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
             CreditCard c = new CreditCard();
             c.setClientId(t.getId());
             c.setNum("CC-" + c.getClientId());
@@ -62,7 +63,7 @@ public class Main {
             c.setStatusId(1);
             daoCard.saveOrUpdate(c);
             //////////////////
-            Dao<Order> daoOrder = new BaseDao<>();
+            Dao<Order> daoOrder = new BaseDao<>(Order.class);
             Order o = new Order();
             o.setClientId(t.getId());
             o.setNum("ORD-" + o.getClientId());
@@ -71,7 +72,7 @@ public class Main {
             o.setStatusId(1);
             daoOrder.saveOrUpdate(o);
             //////////////////
-            Dao<Payment> daoPayment = new BaseDao<>();
+            Dao<Payment> daoPayment = new BaseDao<>(Payment.class);
             Payment p = new Payment();
             p.setClientId(t.getId());
             p.setAccountId(1);
@@ -82,13 +83,16 @@ public class Main {
             p.setDatePayment(new Date());
 
             daoPayment.saveOrUpdate(p);
+
+            ClientDao dao = new ClientDao();
+            dao.flush(1, "sdsd");
+
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
-            util.getSession().close();
-            System.exit(0);
-
+            util.destroy();
         }
+
 //        BaseDao<Employee> dao = new BaseDao();
 //
 ////       Employee t= dao.get(7L, Employee.class);
@@ -104,7 +108,7 @@ public class Main {
 
     public void register(Client client) throws Exception {
 
-        Dao<Client> daoClient = new BaseDao<>();
+        Dao<Client> daoClient = new BaseDao<>(Client.class);
         daoClient.saveOrUpdate(client);
 
     }

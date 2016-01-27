@@ -18,6 +18,10 @@ import org.hibernate.Session;
 
 public class ClientDao extends BaseDao<Client> {
 
+    public ClientDao() {
+        super(Client.class);
+    }
+
     private static Logger log = Logger.getLogger(Client.class);
 
     public void flush(long id, String newName) throws Exception {
