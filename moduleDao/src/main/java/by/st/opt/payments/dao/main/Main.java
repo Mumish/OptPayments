@@ -11,6 +11,7 @@ import by.st.opt.payments.dao.db.Dao;
 import by.st.opt.payments.dao.pojos.Account;
 import by.st.opt.payments.dao.pojos.Client;
 import by.st.opt.payments.dao.pojos.CreditCard;
+import by.st.opt.payments.dao.pojos.Empl;
 import by.st.opt.payments.dao.pojos.Order;
 import by.st.opt.payments.dao.pojos.Payment;
 import by.st.opt.payments.dao.util.HibernateUtil;
@@ -43,7 +44,20 @@ public class Main {
             t.setFio("client fio2");
             t.setLogin("client login2");
             t.setPassword("client password");
+//            Empl emp = new Empl();
+//            emp.setLog("log");
+//            emp.setPass("pass");
+//            t.getEmployees().add(emp);
+
             daoClient.saveOrUpdate(t);
+            //////////////////
+            Dao<Empl> daoEmpl = new BaseDao<>(Empl.class);
+            Empl e = new Empl();
+            e.setLog("log");
+            e.setPass("pass");
+            t.setId(1L);
+            e.setClient(t);
+            daoEmpl.saveOrUpdate(e);
             //////////////////
             Dao<Account> daoAccount = new BaseDao<>(Account.class);
             Account a = new Account();

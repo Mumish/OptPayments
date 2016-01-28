@@ -1,12 +1,18 @@
 package by.st.opt.payments.dao.pojos;
 
+import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  *
  * @author Mumish
  */
 public class Client {
+
+//    public Client() {
+//        employees = new LinkedHashSet<>();
+//    }
 
     @Override
     public int hashCode() {
@@ -64,6 +70,8 @@ public class Client {
      */
     private String password;
 
+    Set<Empl> employees;
+
     public long getId() {
         return id;
     }
@@ -94,6 +102,14 @@ public class Client {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Set<Empl> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(Set<Empl> employees) {
+        this.employees = employees;
     }
 
     @Override

@@ -1606,3 +1606,1167 @@
 2016-01-27 21:50:28,920 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
 2016-01-27 21:50:28,920 INFO  - Get class by id:1
 2016-01-27 21:50:28,930 INFO  - get clazz:null
+2016-01-29 00:26:20,509 INFO  - saveOrUpdate
+2016-01-29 00:26:20,685 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:26:20,697 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:26:20,706 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:26:20,709 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:26:20,732 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:26:20,733 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:26:20,787 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:26:20,817 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:26:20,884 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:26:20,913 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:26:20,933 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:26:20,957 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:26:20,971 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:26:21,087 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:26:21,095 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:26:21,095 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:26:21,095 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:26:21,097 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:26:21,455 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:26:21,558 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:26:21,563 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:26:22,038 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:26:22,495 INFO  - HHH000230: Schema export complete
+2016-01-29 00:26:22,625 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:26:22,661 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:26:22,661 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:26:22,661 INFO  - Load class by id:1
+2016-01-29 00:26:22,666 INFO  - get
+2016-01-29 00:26:22,666 INFO  - Get class by id:1
+2016-01-29 00:26:22,667 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:26:22,667 INFO  - getTransaction
+2016-01-29 00:26:22,667 INFO  - load
+2016-01-29 00:26:22,667 INFO  - Load class by id:1
+2016-01-29 00:26:22,668 INFO  - setTransaction
+2016-01-29 00:26:22,668 INFO  - delete
+2016-01-29 00:26:22,693 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:26:22,693 INFO  - Get class by id:1
+2016-01-29 00:26:22,727 INFO  - get clazz:null
+2016-01-29 00:26:30,184 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:26:30,193 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:26:30,197 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:26:30,205 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:26:30,243 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:26:30,243 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:26:30,297 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:26:30,330 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:26:30,406 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:26:30,443 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:26:30,468 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:26:30,486 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:26:30,505 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:26:30,610 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:26:30,619 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:26:30,619 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:26:30,619 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:26:30,621 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:26:30,976 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:26:31,044 ERROR - Initial SessionFactory creation failed.org.hibernate.MappingException: No discriminator found for by.st.opt.payments.dao.pojos.Empl. Discriminator is needed when 'single-table-per-hierarchy' is used and a class has subclasses
+2016-01-29 00:31:44,573 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:31:44,581 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:31:44,583 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:31:44,585 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:31:44,609 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:31:44,609 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:31:44,668 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:31:44,702 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:31:44,786 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:31:44,811 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:31:44,829 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:31:44,855 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:31:44,874 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:31:44,987 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:31:44,996 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:31:44,996 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:31:44,996 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:31:44,998 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:31:45,329 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:31:45,394 ERROR - Initial SessionFactory creation failed.org.hibernate.MappingException: No discriminator found for by.st.opt.payments.dao.pojos.Empl. Discriminator is needed when 'single-table-per-hierarchy' is used and a class has subclasses
+2016-01-29 00:32:12,562 INFO  - saveOrUpdate
+2016-01-29 00:32:12,736 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:32:12,747 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:32:12,756 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:32:12,759 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:32:12,784 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:32:12,785 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:32:12,837 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:32:12,858 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:32:12,918 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:32:12,942 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:32:12,962 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:32:12,985 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:32:12,999 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:32:13,111 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:32:13,119 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:32:13,119 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:32:13,119 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:32:13,121 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:32:13,485 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:32:13,583 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:32:13,588 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:32:14,055 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:32:14,657 INFO  - HHH000230: Schema export complete
+2016-01-29 00:32:14,801 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:32:14,831 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:32:14,832 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:32:14,832 INFO  - Load class by id:1
+2016-01-29 00:32:14,836 INFO  - get
+2016-01-29 00:32:14,836 INFO  - Get class by id:1
+2016-01-29 00:32:14,837 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:32:14,838 INFO  - getTransaction
+2016-01-29 00:32:14,838 INFO  - load
+2016-01-29 00:32:14,838 INFO  - Load class by id:1
+2016-01-29 00:32:14,840 INFO  - setTransaction
+2016-01-29 00:32:14,840 INFO  - delete
+2016-01-29 00:32:14,864 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:32:14,865 INFO  - Get class by id:1
+2016-01-29 00:32:14,875 INFO  - get clazz:null
+2016-01-29 00:34:00,211 INFO  - saveOrUpdate
+2016-01-29 00:34:00,402 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:34:00,416 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:34:00,427 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:34:00,430 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:34:00,457 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:34:00,457 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:34:00,516 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:34:00,547 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:34:00,626 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:34:00,648 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:34:00,669 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:34:00,686 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:34:00,705 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:34:00,809 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:34:00,817 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:34:00,817 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:34:00,818 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:34:00,820 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:34:01,157 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:34:01,253 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:34:01,260 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:34:01,717 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:34:02,104 INFO  - HHH000230: Schema export complete
+2016-01-29 00:34:02,248 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:34:02,352 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:34:02,352 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:34:02,352 INFO  - Load class by id:1
+2016-01-29 00:34:02,365 INFO  - get
+2016-01-29 00:34:02,365 INFO  - Get class by id:1
+2016-01-29 00:34:02,367 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:34:02,368 INFO  - getTransaction
+2016-01-29 00:34:02,369 INFO  - load
+2016-01-29 00:34:02,370 INFO  - Load class by id:1
+2016-01-29 00:34:02,372 INFO  - setTransaction
+2016-01-29 00:34:02,373 INFO  - delete
+2016-01-29 00:34:02,402 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:34:02,403 INFO  - Get class by id:1
+2016-01-29 00:34:02,413 INFO  - get clazz:null
+2016-01-29 00:38:36,577 INFO  - saveOrUpdate
+2016-01-29 00:38:36,753 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:38:36,764 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:38:36,774 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:38:36,777 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:38:36,801 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:38:36,801 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:38:36,851 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:38:36,875 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:38:36,944 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:38:36,973 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:38:36,990 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:38:37,017 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:38:37,035 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:38:37,147 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:38:37,156 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:38:37,156 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:38:37,156 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:38:37,158 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:38:37,509 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:38:37,601 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:38:37,606 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:38:38,090 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:38:38,550 INFO  - HHH000230: Schema export complete
+2016-01-29 00:38:38,686 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:38:38,727 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:38:38,727 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:38:38,727 INFO  - Load class by id:1
+2016-01-29 00:38:38,732 INFO  - get
+2016-01-29 00:38:38,732 INFO  - Get class by id:1
+2016-01-29 00:38:38,733 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:38:38,733 INFO  - getTransaction
+2016-01-29 00:38:38,734 INFO  - load
+2016-01-29 00:38:38,734 INFO  - Load class by id:1
+2016-01-29 00:38:38,735 INFO  - setTransaction
+2016-01-29 00:38:38,735 INFO  - delete
+2016-01-29 00:38:38,759 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:38:38,759 INFO  - Get class by id:1
+2016-01-29 00:38:38,768 INFO  - get clazz:null
+2016-01-29 00:40:01,099 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:40:01,111 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:40:01,116 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:40:01,119 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:40:01,161 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:40:01,161 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:40:01,253 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:40:01,293 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:40:01,369 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:40:01,393 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:40:01,421 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:40:01,437 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:40:01,541 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:40:01,542 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:40:01,556 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:40:01,557 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:40:01,557 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 00:40:33,030 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:40:33,042 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:40:33,046 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:40:33,049 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:40:33,086 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:40:33,087 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:40:33,158 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:40:33,193 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:40:33,270 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:40:33,298 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:40:33,318 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:40:33,339 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:40:33,394 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:40:33,395 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:40:33,406 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:40:33,406 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:40:33,407 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 00:41:09,618 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:41:09,627 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:41:09,634 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:41:09,637 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:41:09,666 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:41:09,666 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:41:09,715 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:41:09,746 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:41:09,811 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:41:09,834 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:41:09,849 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:41:09,865 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:41:09,907 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:41:09,907 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:41:09,933 ERROR - HHH000196: Error parsing XML (2) : Attribute "descriminator-value" must be declared for element type "class".
+2016-01-29 00:41:09,933 ERROR - HHH000196: Error parsing XML (4) : Attribute "descriminator-value" must be declared for element type "subclass".
+2016-01-29 00:41:09,933 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 00:41:23,131 INFO  - saveOrUpdate
+2016-01-29 00:41:23,347 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:41:23,360 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:41:23,370 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:41:23,372 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:41:23,395 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:41:23,395 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:41:23,447 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:41:23,472 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:41:23,536 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:41:23,563 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:41:23,579 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:41:23,604 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:41:23,619 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:41:23,742 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:41:23,750 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:41:23,751 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:41:23,751 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:41:23,754 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:41:24,123 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:41:24,226 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:41:24,232 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:41:24,689 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:41:25,148 INFO  - HHH000230: Schema export complete
+2016-01-29 00:41:25,315 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:41:25,380 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:41:25,380 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:41:25,381 INFO  - Load class by id:1
+2016-01-29 00:41:25,385 INFO  - get
+2016-01-29 00:41:25,386 INFO  - Get class by id:1
+2016-01-29 00:41:25,386 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:41:25,387 INFO  - getTransaction
+2016-01-29 00:41:25,387 INFO  - load
+2016-01-29 00:41:25,387 INFO  - Load class by id:1
+2016-01-29 00:41:25,388 INFO  - setTransaction
+2016-01-29 00:41:25,389 INFO  - delete
+2016-01-29 00:41:25,423 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:41:25,423 INFO  - Get class by id:1
+2016-01-29 00:41:25,434 INFO  - get clazz:null
+2016-01-29 00:45:16,684 INFO  - saveOrUpdate
+2016-01-29 00:45:16,894 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:45:16,906 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:45:16,916 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:45:16,918 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:45:16,940 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:45:16,940 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:45:17,000 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:45:17,023 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:45:17,095 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:45:17,118 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:45:17,137 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:45:17,166 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:45:17,182 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:45:17,320 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:45:17,329 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:45:17,330 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:45:17,330 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:45:17,333 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:45:17,667 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:45:17,762 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:45:17,767 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:45:18,217 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:45:18,670 INFO  - HHH000230: Schema export complete
+2016-01-29 00:45:18,805 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:45:18,844 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:45:18,844 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:45:18,844 INFO  - Load class by id:1
+2016-01-29 00:45:18,849 INFO  - get
+2016-01-29 00:45:18,849 INFO  - Get class by id:1
+2016-01-29 00:45:18,850 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:45:18,850 INFO  - getTransaction
+2016-01-29 00:45:18,851 INFO  - load
+2016-01-29 00:45:18,851 INFO  - Load class by id:1
+2016-01-29 00:45:18,852 INFO  - setTransaction
+2016-01-29 00:45:18,852 INFO  - delete
+2016-01-29 00:45:18,877 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:45:18,877 INFO  - Get class by id:1
+2016-01-29 00:45:18,886 INFO  - get clazz:null
+2016-01-29 00:45:34,800 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:45:34,808 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:45:34,811 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:45:34,815 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:45:34,843 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:45:34,844 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:45:34,897 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:45:34,925 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:45:34,989 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:45:35,014 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:45:35,049 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:45:35,064 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:45:35,104 ERROR - HHH000196: Error parsing XML (4) : The content of element type "joined-subclass" must match "(meta*,subselect?,synchronize*,comment?,tuplizer*,key,(property|many-to-one|one-to-one|component|dynamic-component|properties|any|map|set|list|bag|idbag|array|primitive-array)*,joined-subclass*,loader?,sql-insert?,sql-update?,sql-delete?,fetch-profile*,resultset*,(query|sql-query)*)".
+2016-01-29 00:45:35,129 ERROR - HHH000196: Error parsing XML (4) : The content of element type "joined-subclass" must match "(meta*,subselect?,synchronize*,comment?,tuplizer*,key,(property|many-to-one|one-to-one|component|dynamic-component|properties|any|map|set|list|bag|idbag|array|primitive-array)*,joined-subclass*,loader?,sql-insert?,sql-update?,sql-delete?,fetch-profile*,resultset*,(query|sql-query)*)".
+2016-01-29 00:45:35,130 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 00:48:15,487 INFO  - saveOrUpdate
+2016-01-29 00:48:15,673 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:48:15,686 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:48:15,698 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:48:15,700 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:48:15,730 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:48:15,730 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:48:15,792 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:48:15,817 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:48:15,881 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:48:15,904 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:48:15,922 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:48:15,937 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:48:15,955 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:48:16,056 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:48:16,067 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:48:16,067 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:48:16,067 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:48:16,069 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:48:16,379 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:48:16,471 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:48:16,476 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:48:16,913 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:48:17,298 INFO  - HHH000230: Schema export complete
+2016-01-29 00:48:17,435 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:48:17,475 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:48:17,475 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:48:17,475 INFO  - Load class by id:1
+2016-01-29 00:48:17,482 INFO  - get
+2016-01-29 00:48:17,482 INFO  - Get class by id:1
+2016-01-29 00:48:17,482 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:48:17,483 INFO  - getTransaction
+2016-01-29 00:48:17,483 INFO  - load
+2016-01-29 00:48:17,483 INFO  - Load class by id:1
+2016-01-29 00:48:17,484 INFO  - setTransaction
+2016-01-29 00:48:17,485 INFO  - delete
+2016-01-29 00:48:17,507 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:48:17,508 INFO  - Get class by id:1
+2016-01-29 00:48:17,518 INFO  - get clazz:null
+2016-01-29 00:49:05,931 INFO  - saveOrUpdate
+2016-01-29 00:49:06,122 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:49:06,135 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:49:06,146 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:49:06,148 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:49:06,175 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:49:06,175 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:49:06,236 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:49:06,261 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:49:06,323 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:49:06,345 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:49:06,366 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:49:06,382 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:49:06,397 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:49:06,505 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:49:06,513 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:49:06,514 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:49:06,514 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:49:06,516 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:49:06,838 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:49:06,929 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:49:06,934 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:49:07,361 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:49:07,856 INFO  - HHH000230: Schema export complete
+2016-01-29 00:49:08,009 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:49:08,044 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:49:08,044 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:49:08,044 INFO  - Load class by id:1
+2016-01-29 00:49:08,049 INFO  - get
+2016-01-29 00:49:08,049 INFO  - Get class by id:1
+2016-01-29 00:49:08,050 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:49:08,051 INFO  - getTransaction
+2016-01-29 00:49:08,051 INFO  - load
+2016-01-29 00:49:08,051 INFO  - Load class by id:1
+2016-01-29 00:49:08,052 INFO  - setTransaction
+2016-01-29 00:49:08,053 INFO  - delete
+2016-01-29 00:49:08,076 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:49:08,076 INFO  - Get class by id:1
+2016-01-29 00:49:08,086 INFO  - get clazz:null
+2016-01-29 00:51:48,626 INFO  - saveOrUpdate
+2016-01-29 00:51:48,790 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:51:48,802 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:51:48,811 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:51:48,814 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:51:48,834 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:51:48,835 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:51:48,884 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:51:48,909 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:51:48,975 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:51:48,998 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:51:49,019 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:51:49,035 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:51:49,048 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 00:51:49,142 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 00:51:49,153 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 00:51:49,154 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 00:51:49,154 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 00:51:49,156 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 00:51:49,502 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 00:51:49,612 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 00:51:49,618 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 00:51:50,060 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 00:51:50,520 INFO  - HHH000230: Schema export complete
+2016-01-29 00:51:50,662 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:51:50,695 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:51:50,695 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:51:50,696 INFO  - Load class by id:1
+2016-01-29 00:51:50,701 INFO  - get
+2016-01-29 00:51:50,701 INFO  - Get class by id:1
+2016-01-29 00:51:50,702 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:51:50,702 INFO  - getTransaction
+2016-01-29 00:51:50,703 INFO  - load
+2016-01-29 00:51:50,703 INFO  - Load class by id:1
+2016-01-29 00:51:50,704 INFO  - setTransaction
+2016-01-29 00:51:50,705 INFO  - delete
+2016-01-29 00:51:50,728 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 00:51:50,729 INFO  - Get class by id:1
+2016-01-29 00:51:50,738 INFO  - get clazz:null
+2016-01-29 00:52:28,075 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 00:52:28,084 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 00:52:28,087 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 00:52:28,089 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 00:52:28,115 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 00:52:28,115 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 00:52:28,163 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 00:52:28,186 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 00:52:28,247 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 00:52:28,270 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 00:52:28,287 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 00:52:28,304 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 00:52:28,327 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 01:07:46,298 INFO  - saveOrUpdate
+2016-01-29 01:07:46,464 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:07:46,476 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:07:46,485 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:07:46,488 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:07:46,511 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:07:46,511 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:07:46,562 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:07:46,584 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:07:46,642 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:07:46,662 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:07:46,683 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:07:46,699 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:07:46,713 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:07:46,817 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:07:46,828 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:07:46,829 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:07:46,829 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:07:46,831 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:07:47,152 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:07:47,257 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:07:47,262 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:07:47,729 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:07:48,183 INFO  - HHH000230: Schema export complete
+2016-01-29 01:07:48,321 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:07:48,360 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:07:48,360 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:07:48,361 INFO  - Load class by id:1
+2016-01-29 01:07:48,366 INFO  - get
+2016-01-29 01:07:48,366 INFO  - Get class by id:1
+2016-01-29 01:07:48,367 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:07:48,367 INFO  - getTransaction
+2016-01-29 01:07:48,368 INFO  - load
+2016-01-29 01:07:48,368 INFO  - Load class by id:1
+2016-01-29 01:07:48,369 INFO  - setTransaction
+2016-01-29 01:07:48,370 INFO  - delete
+2016-01-29 01:07:48,393 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:07:48,393 INFO  - Get class by id:1
+2016-01-29 01:07:48,404 INFO  - get clazz:null
+2016-01-29 01:08:36,263 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:08:36,273 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:08:36,276 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:08:36,278 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:08:36,305 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:08:36,305 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:08:36,358 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:08:36,382 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:08:36,438 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:08:36,460 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:08:36,479 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:08:36,496 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:08:36,512 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:08:36,613 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:08:36,621 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:08:36,622 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:08:36,622 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:08:36,623 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:08:36,911 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:08:36,977 ERROR - Initial SessionFactory creation failed.org.hibernate.MappingException: Association references unmapped class: by.st.opt.payments.dao.pojos.Empl
+2016-01-29 01:10:27,604 INFO  - saveOrUpdate
+2016-01-29 01:10:27,799 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:10:27,809 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:10:27,822 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:10:27,824 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:10:27,846 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:10:27,847 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:10:27,901 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:10:27,922 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:10:27,984 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:10:28,006 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:10:28,025 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:10:28,044 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:10:28,057 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:10:28,164 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:10:28,176 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:10:28,176 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:10:28,177 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:10:28,179 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:10:28,499 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:10:28,597 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:10:28,602 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:10:29,069 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:10:29,528 INFO  - HHH000230: Schema export complete
+2016-01-29 01:10:29,666 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:10:29,700 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:10:29,700 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:10:29,700 INFO  - Load class by id:1
+2016-01-29 01:10:29,705 INFO  - get
+2016-01-29 01:10:29,705 INFO  - Get class by id:1
+2016-01-29 01:10:29,706 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:10:29,707 INFO  - getTransaction
+2016-01-29 01:10:29,707 INFO  - load
+2016-01-29 01:10:29,708 INFO  - Load class by id:1
+2016-01-29 01:10:29,709 INFO  - setTransaction
+2016-01-29 01:10:29,709 INFO  - delete
+2016-01-29 01:10:29,733 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:10:29,733 INFO  - Get class by id:1
+2016-01-29 01:10:29,743 INFO  - get clazz:null
+2016-01-29 01:10:37,469 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:10:37,477 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:10:37,480 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:10:37,483 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:10:37,512 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:10:37,512 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:10:37,561 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:10:37,590 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:10:37,652 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:10:37,675 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:10:37,693 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:10:37,727 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:10:37,745 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:10:37,762 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:10:37,878 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:10:37,886 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:10:37,887 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:10:37,887 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:10:37,888 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:10:38,179 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:10:38,237 INFO  - HHH000071: Duplicate import: by.st.opt.payments.dao.pojos.Client -> by.st.opt.payments.dao.pojos.Client
+2016-01-29 01:10:38,242 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Could not parse mapping document from resource Empl.hbm.xml
+2016-01-29 01:11:40,721 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:11:40,734 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:11:40,737 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:11:40,741 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:11:40,778 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:11:40,778 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:11:40,870 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:11:40,907 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:11:41,004 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:11:41,030 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:11:41,058 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:11:41,075 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:11:41,091 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:11:41,108 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:11:41,257 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:11:41,267 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:11:41,267 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:11:41,267 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:11:41,269 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:11:41,695 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:11:41,799 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:11:41,805 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:11:42,453 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:11:42,507 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_n3m45ajgj9p9ynkqc827bacd1
+2016-01-29 01:11:42,508 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:11:42,509 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_o3gruss1qep8qaylgwp672vd6
+2016-01-29 01:11:42,509 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:11:43,462 INFO  - HHH000230: Schema export complete
+2016-01-29 01:11:43,612 ERROR - HHH000123: IllegalArgumentException in class: by.st.opt.payments.dao.pojos.Client, setter method of property: employees
+2016-01-29 01:11:43,612 ERROR - HHH000091: Expected type: java.util.Set, actual value: org.hibernate.collection.internal.PersistentBag
+2016-01-29 01:11:43,613 ERROR - Error save or update class by.st.opt.payments.dao.pojos.Client in DaoIllegalArgumentException occurred while calling setter for property [by.st.opt.payments.dao.pojos.Client.employees (expected type = java.util.Set)]; target = [id=1, fio=client fio2, login=client login2, password=client password], property value = [[by.st.opt.payments.dao.pojos.Empl@1ddc4ec2]]
+2016-01-29 01:11:43,616 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:17:34,763 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:17:34,776 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:17:34,779 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:17:34,782 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:17:34,818 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:17:34,818 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:17:34,867 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:17:34,895 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:17:34,959 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:17:34,981 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:17:34,997 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:17:35,013 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:17:35,028 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:17:35,042 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:17:35,143 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:17:35,150 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:17:35,150 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:17:35,150 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:17:35,152 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:17:35,445 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:17:35,520 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:17:35,524 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:17:35,945 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:17:37,131 INFO  - HHH000230: Schema export complete
+2016-01-29 01:17:37,261 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:17:37,510 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:17:37,521 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,553 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,555 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,582 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,586 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,608 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:17:37 MSK 2016, statusId=1
+2016-01-29 01:17:37,612 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:17:37 MSK 2016
+2016-01-29 01:17:37,642 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:17:37 MSK 2016
+2016-01-29 01:17:37,655 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:19:36,300 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:19:36,309 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:19:36,312 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:19:36,315 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:19:36,342 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:19:36,342 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:19:36,390 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:19:36,417 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:19:36,471 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:19:36,495 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:19:36,512 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:19:36,528 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:19:36,542 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:19:36,557 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:19:36,664 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:19:36,672 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:19:36,672 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:19:36,672 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:19:36,674 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:19:36,968 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:19:37,046 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:19:37,050 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:19:37,480 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:19:38,626 INFO  - HHH000230: Schema export complete
+2016-01-29 01:19:38,770 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:19:38,803 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:19:38,805 INFO  - saveOrUpdate(t):by.st.opt.payments.dao.pojos.Empl@52e7a6b2
+2016-01-29 01:19:38,807 WARN  - SQL Error: 1364, SQLState: HY000
+2016-01-29 01:19:38,807 ERROR - Field 'empl_id' doesn't have a default value
+2016-01-29 01:19:38,824 INFO  - HHH000010: On release of batch it still contained JDBC statements
+2016-01-29 01:19:38,825 ERROR - Error save or update class by.st.opt.payments.dao.pojos.Empl in Daoorg.hibernate.exception.GenericJDBCException: could not execute statement
+2016-01-29 01:19:38,828 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:21:04,907 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:21:04,915 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:21:04,919 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:21:04,922 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:21:04,948 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:21:04,948 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:21:04,998 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:21:05,026 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:21:05,089 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:21:05,112 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:21:05,133 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:21:05,149 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:21:05,165 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:21:05,181 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:21:05,297 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:21:05,304 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:21:05,304 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:21:05,304 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:21:05,306 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:21:05,594 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:21:05,663 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains physical column name [F_id] represented by different logical column names: [id], [F_id]
+2016-01-29 01:22:50,921 INFO  - saveOrUpdate
+2016-01-29 01:22:51,088 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:22:51,101 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:22:51,110 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:22:51,112 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:22:51,134 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:22:51,134 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:22:51,184 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:22:51,206 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:22:51,264 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:22:51,286 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:22:51,307 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:22:51,327 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:22:51,345 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:22:51,488 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:22:51,496 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:22:51,497 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:22:51,497 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:22:51,500 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:22:51,849 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:22:51,958 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:22:51,966 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:22:52,408 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:22:52,481 ERROR - HHH000389: Unsuccessful: drop table if exists optpayments.T_CLIENT
+2016-01-29 01:22:52,481 ERROR - Cannot delete or update a parent row: a foreign key constraint fails
+2016-01-29 01:22:52,617 ERROR - HHH000389: Unsuccessful: create table optpayments.T_CLIENT (id bigint not null, F_fio varchar(255), F_login varchar(255), F_password varchar(255), primary key (id))
+2016-01-29 01:22:52,617 ERROR - Table 't_client' already exists
+2016-01-29 01:22:52,851 INFO  - HHH000230: Schema export complete
+2016-01-29 01:22:52,992 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:22:52,993 ERROR - Unknown column 'id' in 'field list'
+2016-01-29 01:22:52,995 ERROR - Error save or update class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:22:53,003 INFO  - get
+2016-01-29 01:22:53,003 INFO  - Get class by id:1
+2016-01-29 01:22:53,012 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:22:53,012 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:22:53,013 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:22:53,014 ERROR - Error get class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:22:53,015 INFO  - getTransaction
+2016-01-29 01:22:53,016 INFO  - load
+2016-01-29 01:22:53,016 INFO  - Load class by id:1
+2016-01-29 01:22:53,020 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:22:53,020 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:22:53,020 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:22:53,022 INFO  - setTransaction
+2016-01-29 01:22:53,022 INFO  - delete
+2016-01-29 01:22:53,024 INFO  - HHH000114: Handling transient entity in delete processing
+2016-01-29 01:22:53,026 INFO  - Delete:id=0, fio=test fio, login=test login, password=test password
+2016-01-29 01:22:53,027 INFO  - Get class by id:1
+2016-01-29 01:22:53,028 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:22:53,028 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:22:53,028 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:22:53,029 ERROR - Error get class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:23:19,703 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:23:19,713 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:23:19,716 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:23:19,722 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:23:19,748 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:23:19,748 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:23:19,797 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:23:19,824 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:23:19,881 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:23:19,906 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:23:19,935 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:23:19,954 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:23:19,969 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:23:19,986 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:23:20,091 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:23:20,099 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:23:20,099 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:23:20,100 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:23:20,101 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:23:20,404 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:23:20,474 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains logical column name [id] referenced by multiple physical column names: [F_id], [id]
+2016-01-29 01:24:42,010 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:24:42,018 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:24:42,022 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:24:42,025 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:24:42,050 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:24:42,050 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:24:42,100 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:24:42,126 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:24:42,184 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:24:42,210 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:24:42,224 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:24:42,240 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:24:42,256 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:24:42,268 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:24:42,379 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:24:42,386 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:24:42,386 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:24:42,386 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:24:42,388 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:24:42,689 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:24:42,760 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains logical column name [id] referenced by multiple physical column names: [F_id], [id]
+2016-01-29 01:25:12,606 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:25:12,614 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:25:12,617 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:25:12,621 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:25:12,647 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:25:12,647 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:25:12,695 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:25:12,722 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:25:12,784 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:25:12,807 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:25:12,826 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:25:12,844 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:25:12,859 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:25:12,875 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:25:12,986 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:25:12,994 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:25:12,994 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:25:12,994 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:25:12,995 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:25:13,295 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:25:13,365 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains physical column name [F_id] represented by different logical column names: [id], [F_id]
+2016-01-29 01:27:10,348 INFO  - saveOrUpdate
+2016-01-29 01:27:10,519 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:27:10,531 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:27:10,540 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:27:10,543 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:27:10,567 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:27:10,568 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:27:10,620 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:27:10,642 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:27:10,700 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:27:10,725 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:27:10,741 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:27:10,757 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:27:10,772 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:27:10,876 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:27:10,885 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:27:10,886 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:27:10,886 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:27:10,888 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:27:11,229 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:27:11,322 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:27:11,327 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:27:11,762 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:27:12,217 INFO  - HHH000230: Schema export complete
+2016-01-29 01:27:12,380 INFO  - saveOrUpdate(t):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:27:12,412 INFO  - Save or update (commit):id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:27:12,412 INFO  - inserting id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:27:12,412 INFO  - Load class by id:1
+2016-01-29 01:27:12,417 INFO  - get
+2016-01-29 01:27:12,417 INFO  - Get class by id:1
+2016-01-29 01:27:12,418 INFO  - get clazz:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:27:12,418 INFO  - getTransaction
+2016-01-29 01:27:12,419 INFO  - load
+2016-01-29 01:27:12,419 INFO  - Load class by id:1
+2016-01-29 01:27:12,420 INFO  - setTransaction
+2016-01-29 01:27:12,420 INFO  - delete
+2016-01-29 01:27:12,445 INFO  - Delete:id=1, fio=test fio, login=test login, password=test password
+2016-01-29 01:27:12,445 INFO  - Get class by id:1
+2016-01-29 01:27:12,456 INFO  - get clazz:null
+2016-01-29 01:27:28,358 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:27:28,368 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:27:28,371 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:27:28,373 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:27:28,401 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:27:28,401 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:27:28,448 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:27:28,472 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:27:28,531 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:27:28,556 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:27:28,572 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:27:28,590 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:27:28,629 ERROR - HHH000196: Error parsing XML (4) : Attribute "name" must be declared for element type "key".
+2016-01-29 01:27:28,629 ERROR - HHH000196: Error parsing XML (4) : The content of element type "key" must match "(column)*".
+2016-01-29 01:27:28,654 ERROR - HHH000196: Error parsing XML (4) : Attribute "name" must be declared for element type "key".
+2016-01-29 01:27:28,654 ERROR - HHH000196: Error parsing XML (4) : The content of element type "key" must match "(column)*".
+2016-01-29 01:27:28,655 ERROR - Initial SessionFactory creation failed.org.hibernate.InvalidMappingException: Unable to read XML
+2016-01-29 01:28:41,973 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:28:41,981 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:28:41,983 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:28:41,987 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:28:42,018 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:28:42,018 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:28:42,071 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:28:42,096 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:28:42,157 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:28:42,180 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:28:42,198 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:28:42,214 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:28:42,232 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:28:42,247 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:28:42,355 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:28:42,364 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:28:42,364 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:28:42,364 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:28:42,365 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:28:42,659 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:28:42,734 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:28:42,738 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:28:42,914 ERROR - Initial SessionFactory creation failed.org.hibernate.PropertyNotFoundException: Could not find a getter for id in class by.st.opt.payments.dao.pojos.Empl
+2016-01-29 01:29:24,074 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:29:24,082 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:29:24,085 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:29:24,088 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:29:24,116 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:29:24,116 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:29:24,165 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:29:24,191 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:29:24,243 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:29:24,267 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:29:24,284 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:29:24,304 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:29:24,319 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:29:24,338 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:29:24,447 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:29:24,454 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:29:24,454 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:29:24,454 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:29:24,456 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:29:24,744 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:29:24,812 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains physical column name [F_emplId] represented by different logical column names: [emplId], [F_emplId]
+2016-01-29 01:30:08,585 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:30:08,594 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:30:08,598 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:30:08,600 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:30:08,631 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:30:08,631 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:30:08,682 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:30:08,708 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:30:08,772 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:30:08,796 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:30:08,819 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:30:08,840 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:30:08,859 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:30:08,880 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:30:08,996 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:30:09,004 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:30:09,005 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:30:09,005 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:30:09,006 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:30:09,328 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:30:09,396 ERROR - Initial SessionFactory creation failed.org.hibernate.DuplicateMappingException:  Table [T_EMPL] contains logical column name [emplId] referenced by multiple physical column names: [F_emplId], [emplId]
+2016-01-29 01:31:15,132 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:31:15,140 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:31:15,145 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:31:15,149 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:31:15,175 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:31:15,175 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:31:15,229 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:31:15,256 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:31:15,312 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:31:15,337 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:31:15,354 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:31:15,373 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:31:15,388 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:31:15,403 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:31:15,506 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:31:15,514 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:31:15,515 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:31:15,515 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:31:15,516 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:31:15,807 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:31:15,881 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:31:15,885 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:31:16,307 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:31:16,333 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_lb7thtaim06xsubcn5s3qvh2y
+2016-01-29 01:31:16,333 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:31:16,334 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_mdn063baoxen09kkf01jmufnn
+2016-01-29 01:31:16,334 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:31:17,070 INFO  - HHH000230: Schema export complete
+2016-01-29 01:31:17,212 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:31:17,246 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:31:17,248 INFO  - saveOrUpdate(t):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:31:17,268 INFO  - Save or update (commit):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:31:17,274 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,301 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,302 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,323 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,326 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,345 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:31:17 MSK 2016, statusId=1
+2016-01-29 01:31:17,347 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:31:17 MSK 2016
+2016-01-29 01:31:17,368 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:31:17 MSK 2016
+2016-01-29 01:31:17,375 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:32:02,060 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:32:02,069 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:32:02,072 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:32:02,075 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:32:02,106 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:32:02,106 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:32:02,155 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:32:02,181 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:32:02,238 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:32:02,261 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:32:02,277 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:32:02,293 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:32:02,308 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:32:02,322 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:32:02,427 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:32:02,434 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:32:02,435 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:32:02,435 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:32:02,436 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:32:02,728 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:32:02,805 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:32:02,809 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:32:03,233 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:32:03,433 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_n3m45ajgj9p9ynkqc827bacd1
+2016-01-29 01:32:03,434 ERROR - Error on rename of '.\optpayments\t_empl' to '.\optpayments\#sql2-1244-c3' (errno: 152)
+2016-01-29 01:32:03,619 ERROR - HHH000389: Unsuccessful: drop table if exists optpayments.T_CLIENT
+2016-01-29 01:32:03,619 ERROR - Cannot delete or update a parent row: a foreign key constraint fails
+2016-01-29 01:32:03,773 ERROR - HHH000389: Unsuccessful: create table optpayments.T_CLIENT (F_id bigint not null, F_fio varchar(255), F_login varchar(255), F_password varchar(255), primary key (F_id))
+2016-01-29 01:32:03,773 ERROR - Table 't_client' already exists
+2016-01-29 01:32:04,239 INFO  - HHH000230: Schema export complete
+2016-01-29 01:32:04,400 INFO  - saveOrUpdate(t):id=2, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:32:04,437 INFO  - Save or update (commit):id=2, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:32:04,440 INFO  - saveOrUpdate(t):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:32:04,459 INFO  - Save or update (commit):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:32:04,465 INFO  - saveOrUpdate(t):id=1, clientId=2, num=ACC-2, balance=0.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,492 INFO  - Save or update (commit):id=1, clientId=2, num=ACC-2, balance=0.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,494 INFO  - saveOrUpdate(t):id=1, clientId=2, num=CC-2, balance=1000.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,515 INFO  - Save or update (commit):id=1, clientId=2, num=CC-2, balance=1000.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,517 INFO  - saveOrUpdate(t):id=1, clientId=2, num=ORD-2, price=500.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,536 INFO  - Save or update (commit):id=1, clientId=2, num=ORD-2, price=500.0, dateOpen=Fri Jan 29 01:32:04 MSK 2016, statusId=1
+2016-01-29 01:32:04,538 INFO  - saveOrUpdate(t):id=1, clientId=2, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:32:04 MSK 2016
+2016-01-29 01:32:04,559 INFO  - Save or update (commit):id=1, clientId=2, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:32:04 MSK 2016
+2016-01-29 01:32:04,606 ERROR - HHH000123: IllegalArgumentException in class: by.st.opt.payments.dao.pojos.Client, setter method of property: employees
+2016-01-29 01:32:04,606 ERROR - HHH000091: Expected type: java.util.Set, actual value: org.hibernate.collection.internal.PersistentBag
+2016-01-29 01:32:04,617 INFO  - HHH000327: Error performing load command : IllegalArgumentException occurred while calling setter for property [by.st.opt.payments.dao.pojos.Client.employees (expected type = java.util.Set)]; target = [id=1, fio=client fio2, login=client login2, password=client password], property value = [[by.st.opt.payments.dao.pojos.Empl@6b58b9e9]]
+2016-01-29 01:32:04,618 ERROR - Error Flush ClientIllegalArgumentException occurred while calling setter for property [by.st.opt.payments.dao.pojos.Client.employees (expected type = java.util.Set)]; target = [id=1, fio=client fio2, login=client login2, password=client password], property value = [[by.st.opt.payments.dao.pojos.Empl@6b58b9e9]]
+2016-01-29 01:32:04,621 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:33:09,203 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:33:09,212 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:33:09,215 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:33:09,218 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:33:09,250 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:33:09,251 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:33:09,299 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:33:09,327 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:33:09,383 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:33:09,405 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:33:09,423 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:33:09,440 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:33:09,455 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:33:09,472 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:33:09,582 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:33:09,589 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:33:09,589 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:33:09,590 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:33:09,591 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:33:09,881 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:33:09,960 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:33:09,965 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:33:10,420 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:33:11,774 INFO  - HHH000230: Schema export complete
+2016-01-29 01:33:11,930 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:33:12,000 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:33:12,002 INFO  - saveOrUpdate(t):by.st.opt.payments.dao.pojos.Empl@52e7a6b2
+2016-01-29 01:33:12,017 INFO  - Save or update (commit):by.st.opt.payments.dao.pojos.Empl@52e7a6b2
+2016-01-29 01:33:12,023 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,051 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,053 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,073 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,075 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,095 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:33:12 MSK 2016, statusId=1
+2016-01-29 01:33:12,097 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:33:12 MSK 2016
+2016-01-29 01:33:12,117 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:33:12 MSK 2016
+2016-01-29 01:33:12,123 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]
+2016-01-29 01:33:38,290 INFO  - saveOrUpdate
+2016-01-29 01:33:38,457 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:33:38,469 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:33:38,479 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:33:38,481 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:33:38,504 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:33:38,504 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:33:38,554 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:33:38,576 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:33:38,637 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:33:38,657 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:33:38,676 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:33:38,693 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:33:38,705 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:33:38,813 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:33:38,821 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:33:38,822 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:33:38,822 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:33:38,823 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:33:39,156 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:33:39,249 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:33:39,254 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:33:39,690 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:33:39,741 ERROR - HHH000389: Unsuccessful: drop table if exists optpayments.T_CLIENT
+2016-01-29 01:33:39,741 ERROR - Cannot delete or update a parent row: a foreign key constraint fails
+2016-01-29 01:33:39,856 ERROR - HHH000389: Unsuccessful: create table optpayments.T_CLIENT (id bigint not null, F_fio varchar(255), F_login varchar(255), F_password varchar(255), primary key (id))
+2016-01-29 01:33:39,856 ERROR - Table 't_client' already exists
+2016-01-29 01:33:40,009 INFO  - HHH000230: Schema export complete
+2016-01-29 01:33:40,120 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:33:40,120 ERROR - Unknown column 'id' in 'field list'
+2016-01-29 01:33:40,123 ERROR - Error save or update class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:33:40,130 INFO  - get
+2016-01-29 01:33:40,130 INFO  - Get class by id:1
+2016-01-29 01:33:40,140 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:33:40,140 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:33:40,141 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:33:40,142 ERROR - Error get class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:33:40,143 INFO  - getTransaction
+2016-01-29 01:33:40,143 INFO  - load
+2016-01-29 01:33:40,144 INFO  - Load class by id:1
+2016-01-29 01:33:40,150 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:33:40,150 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:33:40,150 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:33:40,152 INFO  - setTransaction
+2016-01-29 01:33:40,153 INFO  - delete
+2016-01-29 01:33:40,155 INFO  - HHH000114: Handling transient entity in delete processing
+2016-01-29 01:33:40,158 INFO  - Delete:id=0, fio=test fio, login=test login, password=test password
+2016-01-29 01:33:40,158 INFO  - Get class by id:1
+2016-01-29 01:33:40,160 WARN  - SQL Error: 1054, SQLState: 42S22
+2016-01-29 01:33:40,160 ERROR - Unknown column 'client0_.id' in 'field list'
+2016-01-29 01:33:40,160 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:33:40,161 ERROR - Error get class by.st.opt.payments.dao.pojos.Client in Daoorg.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2016-01-29 01:34:02,119 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-29 01:34:02,130 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-01-29 01:34:02,132 INFO  - HHH000206: hibernate.properties not found
+2016-01-29 01:34:02,134 INFO  - HHH000021: Bytecode provider name : javassist
+2016-01-29 01:34:02,160 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-01-29 01:34:02,160 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-01-29 01:34:02,206 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-01-29 01:34:02,231 INFO  - HHH000221: Reading mappings from resource: Account.hbm.xml
+2016-01-29 01:34:02,295 INFO  - HHH000221: Reading mappings from resource: CreditCard.hbm.xml
+2016-01-29 01:34:02,320 INFO  - HHH000221: Reading mappings from resource: Order.nbm.xml
+2016-01-29 01:34:02,336 INFO  - HHH000221: Reading mappings from resource: Payment.nbm.xml
+2016-01-29 01:34:02,353 INFO  - HHH000221: Reading mappings from resource: Client.hbm.xml
+2016-01-29 01:34:02,369 INFO  - HHH000221: Reading mappings from resource: Empl.hbm.xml
+2016-01-29 01:34:02,384 INFO  - HHH000041: Configured SessionFactory: null
+2016-01-29 01:34:02,490 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-01-29 01:34:02,497 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/]
+2016-01-29 01:34:02,498 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-01-29 01:34:02,498 INFO  - HHH000006: Autocommit mode: false
+2016-01-29 01:34:02,499 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-01-29 01:34:02,795 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-01-29 01:34:02,871 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-01-29 01:34:02,875 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-01-29 01:34:03,300 INFO  - HHH000227: Running hbm2ddl schema export
+2016-01-29 01:34:03,312 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_n3m45ajgj9p9ynkqc827bacd1
+2016-01-29 01:34:03,312 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:34:03,313 ERROR - HHH000389: Unsuccessful: alter table optpayments.T_EMPL drop foreign key FK_mdn063baoxen09kkf01jmufnn
+2016-01-29 01:34:03,313 ERROR - Table 'optpayments.t_empl' doesn't exist
+2016-01-29 01:34:04,153 INFO  - HHH000230: Schema export complete
+2016-01-29 01:34:04,305 INFO  - saveOrUpdate(t):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:34:04,342 INFO  - Save or update (commit):id=1, fio=client fio2, login=client login2, password=client password
+2016-01-29 01:34:04,345 INFO  - saveOrUpdate(t):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:34:04,364 INFO  - Save or update (commit):by.st.opt.payments.dao.pojos.Empl@6b58b9e9
+2016-01-29 01:34:04,371 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,397 INFO  - Save or update (commit):id=1, clientId=1, num=ACC-1, balance=0.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,399 INFO  - saveOrUpdate(t):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,420 INFO  - Save or update (commit):id=1, clientId=1, num=CC-1, balance=1000.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,422 INFO  - saveOrUpdate(t):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,442 INFO  - Save or update (commit):id=1, clientId=1, num=ORD-1, price=500.0, dateOpen=Fri Jan 29 01:34:04 MSK 2016, statusId=1
+2016-01-29 01:34:04,444 INFO  - saveOrUpdate(t):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:34:04 MSK 2016
+2016-01-29 01:34:04,464 INFO  - Save or update (commit):id=1, clientId=1, accountId=1, orderId=0, amount=500.0, datePayment=Fri Jan 29 01:34:04 MSK 2016
+2016-01-29 01:34:04,472 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/]

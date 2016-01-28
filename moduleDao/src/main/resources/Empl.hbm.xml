@@ -4,25 +4,19 @@
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping package ="by.st.opt.payments.dao.pojos" auto-import="false" catalog="optpayments">
-    <class name="Client">
+    <class name="Empl">
         <meta attribute="class-description">
             This class contains the client detail. 
         </meta>
-        <id name="id" type="long">
+        <id name="emplId" column="F_emplId" type="long">
             <generator class="increment"/>
         </id>
-        <property name="fio" type="string"/>
-        <property name="login" type="string"/>
-        <property name="password" type="string"/>
-
-        <bag name="employees"
-             inverse="true" lazy="true" fetch="select">
-            <key>
-                <column name="F_emplId" not-null="true" />
-            </key>
-            <one-to-many class="Empl" />
-        </bag>
+        <property name="log" type="string"/>
+        <property name="pass" type="string"/>
         
-        
+        <many-to-one name="client" class="Client" fetch="select">
+            <column name="client_id" not-null="true" />
+        </many-to-one>
+ 
     </class>
 </hibernate-mapping>

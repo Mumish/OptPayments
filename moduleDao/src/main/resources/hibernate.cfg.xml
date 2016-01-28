@@ -15,5 +15,6 @@
     <mapping resource="Order.nbm.xml"/>
     <mapping resource="Payment.nbm.xml"/>
     <mapping resource="Client.hbm.xml"/>
+    <mapping resource="Empl.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
