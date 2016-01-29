@@ -18,7 +18,7 @@
         <bag name="employees"
              inverse="true" lazy="true" fetch="select">
             <key>
-                <column name="F_emplId" not-null="true" />
+                <column name="F_emplId" not-null="true"/>
             </key>
             <one-to-many class="Empl" />
         </bag>

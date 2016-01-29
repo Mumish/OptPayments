@@ -17,5 +17,9 @@
         <property name="balance" type="double"/>
         <property name="dateOpen" type="date"/>
         <property name="statusId" type="int"/>
+        <joined-subclass name="CreditCardSub" extends="CreditCard">
+            <key column="card_id" />
+            <property name="additional" type="string"/>
+        </joined-subclass>
     </class>
 </hibernate-mapping>

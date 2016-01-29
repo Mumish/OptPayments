@@ -11,6 +11,7 @@ import by.st.opt.payments.dao.db.Dao;
 import by.st.opt.payments.dao.pojos.Account;
 import by.st.opt.payments.dao.pojos.Client;
 import by.st.opt.payments.dao.pojos.CreditCard;
+import by.st.opt.payments.dao.pojos.CreditCardSub;
 import by.st.opt.payments.dao.pojos.Empl;
 import by.st.opt.payments.dao.pojos.Order;
 import by.st.opt.payments.dao.pojos.Payment;
@@ -68,13 +69,15 @@ public class Main {
             a.setStatusId(1);
             daoAccount.saveOrUpdate(a);
             //////////////////
-            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
-            CreditCard c = new CreditCard();
+//            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
+            Dao<CreditCardSub> daoCard = new BaseDao<>(CreditCardSub.class);
+            CreditCardSub c = new CreditCardSub();
             c.setClientId(t.getId());
             c.setNum("CC-" + c.getClientId());
             c.setBalance(1000);
             c.setDateOpen(new Date());
             c.setStatusId(1);
+            c.setAdditional("additional");
             daoCard.saveOrUpdate(c);
             //////////////////
             Dao<Order> daoOrder = new BaseDao<>(Order.class);
