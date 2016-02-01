@@ -40,6 +40,9 @@ public class Main {
 
 //        new ClientDao().flush(7L, "new Name");
 /////
+//        session.getTransaction().commit();
+//        session.close();
+///////////////////
             Dao<Client> daoClient = new BaseDao<>(Client.class);
             Client t = new Client();
             t.setFio("client fio2");

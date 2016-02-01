@@ -10,11 +10,5 @@
     <property name="hibernate.connection.pool_size">10</property>
     <property name="show_sql">true</property>
     <property name="hibernate.hbm2ddl.auto">create</property>
-    <mapping resource="Account.hbm.xml"/>
-    <mapping resource="CreditCard.hbm.xml"/>
-    <mapping resource="Order.nbm.xml"/>
-    <mapping resource="Payment.nbm.xml"/>
-    <mapping resource="Client.hbm.xml"/>
-    <mapping resource="Empl.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

@@ -1,8 +1,6 @@
 package by.st.opt.payments.dao.pojos;
 
 import java.util.Date;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 /**
  *
@@ -19,12 +17,6 @@ public class Account {
     private Date dateOpen;
 
     private int statusId;
-
-    private Set<Client> clients;
-
-    public Account() {
-        clients = new LinkedHashSet<>();
-    }
 
     public long getAccountId() {
         return accountId;
@@ -64,14 +56,6 @@ public class Account {
 
     public void setStatusId(int statusId) {
         this.statusId = statusId;
-    }
-
-    public Set<Client> getClients() {
-        return clients;
-    }
-
-    public void setClients(Set<Client> clients) {
-        this.clients = clients;
     }
 
     @Override

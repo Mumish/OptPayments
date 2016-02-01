@@ -12,7 +12,6 @@ public class Client {
 
     public Client() {
         employees = new LinkedHashSet<>();
-        accounts = new LinkedHashSet<>();
     }
 
     @Override
@@ -72,7 +71,6 @@ public class Client {
     private String password;
 
     private Set<Empl> employees;
-    private Set<Account> accounts;
 
     public long getClientId() {
         return clientId;
@@ -112,14 +110,6 @@ public class Client {
 
     public void setEmployees(Set<Empl> employees) {
         this.employees = employees;
-    }
-
-    public Set<Account> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(Set<Account> accounts) {
-        this.accounts = accounts;
     }
 
     @Override
