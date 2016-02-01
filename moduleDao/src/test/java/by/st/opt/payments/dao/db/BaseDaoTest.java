@@ -6,8 +6,6 @@
 package by.st.opt.payments.dao.db;
 
 import by.st.opt.payments.dao.pojos.Client;
-import java.io.Serializable;
-import java.util.logging.Level;
 import org.apache.log4j.Logger;
 import org.hibernate.Transaction;
 import org.junit.After;
@@ -36,12 +34,12 @@ public class BaseDaoTest {
         baseDao = new BaseDao<>(Client.class);
 
         Client t = new Client();
-        t.setId(1L);
+        t.setClientId(1L);
         t.setFio("test fio");
         t.setLogin("test login");
         t.setPassword("test password");
         inserted = t;
-        insertedId = t.getId();
+        insertedId = t.getClientId();
     }
 
     public BaseDaoTest() {
@@ -72,7 +70,7 @@ public class BaseDaoTest {
         log.info("saveOrUpdate");
 
         Client forInsert = (Client) inserted;
-        forInsert.setId(0); //используется generatedId
+        forInsert.setClientId(0); //используется generatedId
         baseDao.saveOrUpdate(forInsert);
         log.info("inserting " + inserted);
 

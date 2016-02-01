@@ -10,14 +10,15 @@ import java.util.Set;
  */
 public class Client {
 
-//    public Client() {
-//        employees = new LinkedHashSet<>();
-//    }
+    public Client() {
+        employees = new LinkedHashSet<>();
+        accounts = new LinkedHashSet<>();
+    }
 
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 47 * hash + (int) (this.id ^ (this.id >>> 32));
+        hash = 47 * hash + (int) (this.clientId ^ (this.clientId >>> 32));
         hash = 47 * hash + Objects.hashCode(this.fio);
         hash = 47 * hash + Objects.hashCode(this.login);
         hash = 47 * hash + Objects.hashCode(this.password);
@@ -36,7 +37,7 @@ public class Client {
             return false;
         }
         final Client other = (Client) obj;
-        if (this.id != other.id) {
+        if (this.clientId != other.clientId) {
             return false;
         }
         if (!Objects.equals(this.fio, other.fio)) {
@@ -54,7 +55,7 @@ public class Client {
     /**
      * ИД клиента
      */
-    private long id;
+    private long clientId;
 
     /**
      * ФИО клиента
@@ -70,14 +71,15 @@ public class Client {
      */
     private String password;
 
-    Set<Empl> employees;
+    private Set<Empl> employees;
+    private Set<Account> accounts;
 
-    public long getId() {
-        return id;
+    public long getClientId() {
+        return clientId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setClientId(long clientId) {
+        this.clientId = clientId;
     }
 
     public String getFio() {
@@ -112,9 +114,17 @@ public class Client {
         this.employees = employees;
     }
 
+    public Set<Account> getAccounts() {
+        return accounts;
+    }
+
+    public void setAccounts(Set<Account> accounts) {
+        this.accounts = accounts;
+    }
+
     @Override
     public String toString() {
-        return "id=" + this.getId() + ", fio=" + this.getFio() + ", login=" + this.getLogin() + ", password=" + this.getPassword();
+        return "clientId=" + this.getClientId() + ", fio=" + this.getFio() + ", login=" + this.getLogin() + ", password=" + this.getPassword();
     }
 
 }

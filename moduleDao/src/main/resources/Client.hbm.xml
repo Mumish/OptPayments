@@ -8,7 +8,7 @@
         <meta attribute="class-description">
             This class contains the client detail. 
         </meta>
-        <id name="id" type="long">
+        <id name="clientId" type="long">
             <generator class="increment"/>
         </id>
         <property name="fio" type="string"/>
@@ -23,6 +23,13 @@
             <one-to-many class="Empl" />
         </bag>
         
+        <set name="accounts" table="T_CLIENT_ACCOUNT"
+              inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="F_clientId" not-null="true"/>
+            </key>
+            <many-to-many class="Account" column="F_accountId" />
+        </set>
         
     </class>
 </hibernate-mapping>

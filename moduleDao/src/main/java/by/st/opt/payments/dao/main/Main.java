@@ -45,10 +45,6 @@ public class Main {
             t.setFio("client fio2");
             t.setLogin("client login2");
             t.setPassword("client password");
-//            Empl emp = new Empl();
-//            emp.setLog("log");
-//            emp.setPass("pass");
-//            t.getEmployees().add(emp);
 
             daoClient.saveOrUpdate(t);
             //////////////////
@@ -56,14 +52,12 @@ public class Main {
             Empl e = new Empl();
             e.setLog("log");
             e.setPass("pass");
-            t.setId(1L);
             e.setClient(t);
             daoEmpl.saveOrUpdate(e);
             //////////////////
             Dao<Account> daoAccount = new BaseDao<>(Account.class);
             Account a = new Account();
-            a.setClientId(t.getId());
-            a.setNum("ACC-" + a.getClientId());
+            a.setNum("ACC-" + t.getClientId());
             a.setBalance(0);
             a.setDateOpen(new Date());
             a.setStatusId(1);
@@ -72,7 +66,7 @@ public class Main {
 //            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
             Dao<CreditCardSub> daoCard = new BaseDao<>(CreditCardSub.class);
             CreditCardSub c = new CreditCardSub();
-            c.setClientId(t.getId());
+            c.setClientId(t.getClientId());
             c.setNum("CC-" + c.getClientId());
             c.setBalance(1000);
             c.setDateOpen(new Date());
@@ -82,7 +76,7 @@ public class Main {
             //////////////////
             Dao<Order> daoOrder = new BaseDao<>(Order.class);
             Order o = new Order();
-            o.setClientId(t.getId());
+            o.setClientId(t.getClientId());
             o.setNum("ORD-" + o.getClientId());
             o.setPrice(500);
             o.setDateOpen(new Date());
@@ -91,7 +85,7 @@ public class Main {
             //////////////////
             Dao<Payment> daoPayment = new BaseDao<>(Payment.class);
             Payment p = new Payment();
-            p.setClientId(t.getId());
+            p.setClientId(t.getClientId());
             p.setAccountId(1);
             p.setAmount(500);
             //or OrderId or AccountId with Amount

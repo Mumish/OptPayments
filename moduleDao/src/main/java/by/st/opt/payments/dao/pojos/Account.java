@@ -1,6 +1,8 @@
 package by.st.opt.payments.dao.pojos;
 
 import java.util.Date;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 /**
  *
@@ -8,9 +10,7 @@ import java.util.Date;
  */
 public class Account {
 
-    private long id;
-
-    private long clientId;
+    private long accountId;
 
     private String num;
 
@@ -20,20 +20,18 @@ public class Account {
 
     private int statusId;
 
-    public long getId() {
-        return id;
+    private Set<Client> clients;
+
+    public Account() {
+        clients = new LinkedHashSet<>();
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public long getAccountId() {
+        return accountId;
     }
 
-    public long getClientId() {
-        return clientId;
-    }
-
-    public void setClientId(long clientId) {
-        this.clientId = clientId;
+    public void setAccountId(long accountId) {
+        this.accountId = accountId;
     }
 
     public String getNum() {
@@ -68,9 +66,17 @@ public class Account {
         this.statusId = statusId;
     }
 
+    public Set<Client> getClients() {
+        return clients;
+    }
+
+    public void setClients(Set<Client> clients) {
+        this.clients = clients;
+    }
+
     @Override
     public String toString() {
-        return "id=" + this.getId() + ", clientId=" + this.getClientId() + ", num=" + this.getNum() + ", balance=" + this.getBalance() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
+        return "accountId=" + this.getAccountId() + ", num=" + this.getNum() + ", balance=" + this.getBalance() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
     }
 
 }

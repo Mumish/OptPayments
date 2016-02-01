@@ -8,7 +8,7 @@
         <meta attribute="class-description">
             This class contains the account detail. 
         </meta>
-        <id name="id" type="long">
+        <id name="accountId" type="long">
             <generator class="increment"/>
         </id>
         
@@ -17,5 +17,13 @@
         <property name="balance" type="double"/>
         <property name="dateOpen" type="date"/>
         <property name="statusId" type="int"/>
+        
+        <set name="accounts" table="T_CLIENT_ACCOUNT"
+              inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="F_accountId" not-null="true"/>
+            </key>
+            <many-to-many class="Client" column="F_clientId" />
+        </set>
     </class>
 </hibernate-mapping>
