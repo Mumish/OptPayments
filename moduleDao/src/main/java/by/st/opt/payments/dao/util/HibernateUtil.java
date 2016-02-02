@@ -52,4 +52,9 @@ public class HibernateUtil {
         }
         return util;
     }
+
+    public void destroy() {
+        sessionFactory.close();
+        util = null;
+    }
 }

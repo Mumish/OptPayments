@@ -1,24 +1,46 @@
 package by.st.opt.payments.dao.pojos;
 
 import java.util.Date;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.Temporal;
 
 /**
  *
  * @author Mumish
  */
+@Entity
 public class Order {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
-    private long clientId;
-
+    @Column
     private String num;
-
+    @Column
     private double price;
-
+    @Column
+    @Temporal(javax.persistence.TemporalType.DATE)
     private Date dateOpen;
-
+    //TODO:почему hibernate мапит это поле, если не стоит аннотации?
     private int statusId;
+
+    //это подчиненная таблица
+    @ManyToOne(fetch = FetchType.LAZY)//@Fetch(value = FetchMode.SELECT) 
+    @JoinColumn(name = "F_clientId")//,referencedColumnName = "idE1")
+    private Client client;
+
+    //это главная таблица в связи
+    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
+    private Payment payment;
 
     public long getId() {
         return id;
@@ -26,14 +48,6 @@ public class Order {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public long getClientId() {
-        return clientId;
-    }
-
-    public void setClientId(long clientId) {
-        this.clientId = clientId;
     }
 
     public String getNum() {
@@ -68,9 +82,25 @@ public class Order {
         this.statusId = statusId;
     }
 
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public void setPayment(Payment payment) {
+        this.payment = payment;
+    }
+
     @Override
     public String toString() {
-        return "id=" + this.getId() + ", clientId=" + this.getClientId() + ", num=" + this.getNum() + ", price=" + this.getPrice() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
+        return "id=" + this.getId() + ", num=" + this.getNum() + ", price=" + this.getPrice() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
     }
 
 }

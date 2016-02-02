@@ -13,9 +13,12 @@ public class BaseDao<T> implements Dao<T> {
 
     private static Logger log = Logger.getLogger(BaseDao.class);
     private Transaction transaction = null;
+    private Class<T> type;
 
-    public BaseDao() {
-
+    public BaseDao(Class<T> type) {
+        //т.к. не работает рефлекисия, приходится так
+//        (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+        this.type = type;
     }
 
     @Override
@@ -28,7 +31,7 @@ public class BaseDao<T> implements Dao<T> {
             transaction.commit();
             log.info("Save or update (commit):" + t);
         } catch (HibernateException e) {
-            log.error("Error save or update " + getPersistentClass() + " in Dao" + e);
+            log.error("Error save or update " + this.type + " in Dao" + e);
             transaction.rollback();
             throw e;
         }
@@ -41,12 +44,12 @@ public class BaseDao<T> implements Dao<T> {
         try {
             Session session = Main.getUtil().getSession();
             transaction = session.beginTransaction();
-            t = (T) session.get(getPersistentClass(), id);
+            t = (T) session.get(this.type, id);
             transaction.commit();
             log.info("get clazz:" + t);
         } catch (HibernateException e) {
             transaction.rollback();
-            log.error("Error get " + getPersistentClass() + " in Dao" + e);
+            log.error("Error get " + this.type + " in Dao" + e);
             throw e;
         }
         return t;
@@ -58,12 +61,12 @@ public class BaseDao<T> implements Dao<T> {
         try {
             Session session = Main.getUtil().getSession();
             transaction = session.beginTransaction();
-            t = (T) session.load(getPersistentClass(), id);
-            log.info("load() clazz:" + t);
-            session.isDirty();
+            t = (T) session.load(this.type, id);
+//            log.info("load() clazz:" + t);
+//            session.isDirty();
             transaction.commit();
         } catch (HibernateException e) {
-            log.error("Error load() " + getPersistentClass() + " in Dao" + e);
+            log.error("Error load() " + this.type + " in Dao" + e);
             transaction.rollback();
             throw e;
         }
@@ -78,16 +81,16 @@ public class BaseDao<T> implements Dao<T> {
             transaction.commit();
             log.info("Delete:" + t);
         } catch (HibernateException e) {
-            log.error("Error save or update  " + getPersistentClass() + "  in Dao" + e);
+            log.error("Error save or update  " + this.type + "  in Dao" + e);
             transaction.rollback();
             throw e;
         }
     }
 
-    private Class getPersistentClass() {
-        return (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
-    }
-
+    //эта штука не во всех хибернет поддерживается
+//    private Class getPersistentClass() {
+//        return (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+//    }
     public Transaction getTransaction() {
         return transaction;
     }

@@ -13,7 +13,9 @@ import by.st.opt.payments.dao.pojos.CreditCard;
 import by.st.opt.payments.dao.pojos.Order;
 import by.st.opt.payments.dao.pojos.Payment;
 import by.st.opt.payments.dao.util.HibernateUtil;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import org.apache.log4j.Logger;
 
 /**
@@ -37,58 +39,88 @@ public class Main {
 
 //        new ClientDao().flush(7L, "new Name");
 /////
-            Dao<Client> daoClient = new BaseDao<>();
+//        session.getTransaction().commit();
+//        session.close();
+///////////////////
+            Dao<Client> daoClient = new BaseDao<>(Client.class);
             Client t = new Client();
             t.setFio("client fio2");
             t.setLogin("client login2");
             t.setPassword("client password");
-            daoClient.saveOrUpdate(t);
+
+//            daoClient.saveOrUpdate(t);
             //////////////////
-            Dao<Account> daoAccount = new BaseDao<>();
+//            Dao<Account> daoAccount = new BaseDao<>(Account.class);
             Account a = new Account();
-            a.setClientId(t.getId());
-            a.setNum("ACC-" + a.getClientId());
+            a.setNum("ACC-" + t.getClientId());
             a.setBalance(0);
             a.setDateOpen(new Date());
-            a.setStatusId(1);
-            daoAccount.saveOrUpdate(a);
+            a.setStatusId(2);
+//            daoAccount.saveOrUpdate(a);
             //////////////////
-            Dao<CreditCard> daoCard = new BaseDao<>();
+//            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
+//            Dao<CreditCard> daoCard = new BaseDao<>(CreditCard.class);
             CreditCard c = new CreditCard();
-            c.setClientId(t.getId());
-            c.setNum("CC-" + c.getClientId());
+            c.setNum("CC-" + t.getClientId());
             c.setBalance(1000);
             c.setDateOpen(new Date());
             c.setStatusId(1);
-            daoCard.saveOrUpdate(c);
-            //////////////////
-            Dao<Order> daoOrder = new BaseDao<>();
-            Order o = new Order();
-            o.setClientId(t.getId());
-            o.setNum("ORD-" + o.getClientId());
-            o.setPrice(500);
-            o.setDateOpen(new Date());
-            o.setStatusId(1);
-            daoOrder.saveOrUpdate(o);
-            //////////////////
-            Dao<Payment> daoPayment = new BaseDao<>();
-            Payment p = new Payment();
-            p.setClientId(t.getId());
-            p.setAccountId(1);
-            p.setAmount(500);
-            //or OrderId or AccountId with Amount
-//            p.setOrderId(1);
+//            daoCard.saveOrUpdate(c);
 
+            //////////////////
+//            Dao<Order> daoOrder = new BaseDao<>(Order.class);
+            Order o1 = new Order();
+            o1.setNum("ORD-1" + t.getClientId());
+            o1.setPrice(500);
+            o1.setDateOpen(new Date());
+            o1.setStatusId(1);
+//            daoOrder.saveOrUpdate(o);
+//            Dao<Order> daoOrder = new BaseDao<>(Order.class);
+            Order o2 = new Order();
+            o2.setNum("ORD-2" + t.getClientId());
+            o2.setPrice(250);
+            o2.setDateOpen(new Date());
+            o2.setStatusId(2);
+//            daoOrder.saveOrUpdate(o);
+
+            t.setAccount(a);
+            a.setClient(t);
+            //
+            t.setCreditCard(c);
+            c.setClient(t);
+            //
+            o1.setClient(t);
+            o2.setClient(t);
+            List<Order> orders = new ArrayList<>();
+            orders.add(o1);
+            orders.add(o2);
+            t.setOrders(orders);
+            daoClient.saveOrUpdate(t);
+//daoClient.delete(t);
+            //////////////////
+            Dao<Payment> daoPayment = new BaseDao<>(Payment.class);
+            Payment p = new Payment();
+            p.setAmount(500);
             p.setDatePayment(new Date());
 
+            //
+            o2.setPayment(p);
+            o2.setStatusId(3);
+            p.setOrder(o2);
+//            daoOrder.saveOrUpdate(o2);
             daoPayment.saveOrUpdate(p);
+
+            //TODO:Реверс зависимостей имеет смысл только в one-many?
+            //ибо в one-one не увидел разницы по sql
+            ////////////////////
+//            ClientDao dao = new ClientDao();
+//            dao.flush(1, "sdsd");
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
-            util.getSession().close();
-            System.exit(0);
-
+            util.destroy();
         }
+
 //        BaseDao<Employee> dao = new BaseDao();
 //
 ////       Employee t= dao.get(7L, Employee.class);
@@ -104,7 +136,7 @@ public class Main {
 
     public void register(Client client) throws Exception {
 
-        Dao<Client> daoClient = new BaseDao<>();
+        Dao<Client> daoClient = new BaseDao<>(Client.class);
         daoClient.saveOrUpdate(client);
 
     }
