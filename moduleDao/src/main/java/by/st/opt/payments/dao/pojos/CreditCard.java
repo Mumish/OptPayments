@@ -1,39 +1,51 @@
 package by.st.opt.payments.dao.pojos;
 
+import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Temporal;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Parameter;
 
 /**
  *
  * @author Mumish
  */
-public class CreditCard {
+@Entity
+public class CreditCard implements Serializable {
 
-    private long id;
-
-    private long clientId;
-
+    @Id
+    @GenericGenerator(name = "clientId", strategy = "foreign", parameters = @Parameter(name = "property", value = "client"))
+    @GeneratedValue(generator = "clientId")
+    private long creditCardId;
+    @Column
     private String num;
-
+    @Column
     private double balance;
-
+    @Column
+    @Temporal(javax.persistence.TemporalType.DATE)
     private Date dateOpen;
-
+    //TODO:почему hibernate мапит это поле, если не стоит аннотации?
     private int statusId;
 
-    public long getId() {
-        return id;
+    //это подчиненная таблица
+    @OneToOne(fetch = FetchType.LAZY)//@Fetch(value = FetchMode.SELECT) 
+    @PrimaryKeyJoinColumn//(name = "idP",referencedColumnName = "idE1")
+    private Client client;
+
+    public long getCreditCardId() {
+        return creditCardId;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public long getClientId() {
-        return clientId;
-    }
-
-    public void setClientId(long clientId) {
-        this.clientId = clientId;
+    public void setCreditCardId(long creditCardId) {
+        this.creditCardId = creditCardId;
     }
 
     public String getNum() {
@@ -68,9 +80,17 @@ public class CreditCard {
         this.statusId = statusId;
     }
 
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
     @Override
     public String toString() {
-        return "id=" + this.getId() + ", clientId=" + this.getClientId() + ", num=" + this.getNum() + ", balance=" + this.getBalance() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
+        return "creditCardId=" + this.getCreditCardId() + ", num=" + this.getNum() + ", balance=" + this.getBalance() + ", dateOpen=" + this.getDateOpen() + ", statusId=" + this.getStatusId();
     }
 
 }

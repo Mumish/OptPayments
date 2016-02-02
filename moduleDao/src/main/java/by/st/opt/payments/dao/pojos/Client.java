@@ -1,17 +1,28 @@
 package by.st.opt.payments.dao.pojos;
 
-import java.util.LinkedHashSet;
+import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
-import java.util.Set;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 /**
  *
  * @author Mumish
  */
-public class Client {
+@Entity
+public class Client implements Serializable {
 
+    /**
+     *
+     */
     public Client() {
-        employees = new LinkedHashSet<>();
     }
 
     @Override
@@ -54,23 +65,35 @@ public class Client {
     /**
      * ИД клиента
      */
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long clientId;
 
     /**
      * ФИО клиента
      */
+    @Column
     private String fio;
 
     /**
      * Логин клиента
      */
+    @Column
     private String login;
     /**
      * Пароль клиента
      */
+    @Column
     private String password;
-
-    private Set<Empl> employees;
+    //это главная таблица в связи
+    @OneToOne(mappedBy = "client", cascade = CascadeType.ALL)
+    private Account account;
+    //это главная таблица в связи
+    @OneToOne(mappedBy = "client", cascade = CascadeType.ALL)
+    private CreditCard creditCard;
+    //это главная таблица в связи
+    @OneToMany(mappedBy = "client", cascade = CascadeType.ALL)
+    private List<Order> orders;
 
     public long getClientId() {
         return clientId;
@@ -104,12 +127,28 @@ public class Client {
         this.password = password;
     }
 
-    public Set<Empl> getEmployees() {
-        return employees;
+    public Account getAccount() {
+        return account;
     }
 
-    public void setEmployees(Set<Empl> employees) {
-        this.employees = employees;
+    public void setAccount(Account account) {
+        this.account = account;
+    }
+
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    public void setCreditCard(CreditCard creditCard) {
+        this.creditCard = creditCard;
+    }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 
     @Override

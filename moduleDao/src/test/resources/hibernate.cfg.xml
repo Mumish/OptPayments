@@ -3,6 +3,7 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.default_schema">optpayments</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/</property>
     <property name="hibernate.connection.username">root</property>
@@ -10,10 +11,6 @@
     <property name="hibernate.connection.pool_size">10</property>
     <property name="show_sql">true</property>
     <property name="hibernate.hbm2ddl.auto">create</property>
-    <mapping resource="Account.hbm.xml"/>
-    <mapping resource="CreditCard.hbm.xml"/>
-    <mapping resource="Order.nbm.xml"/>
-    <mapping resource="Payment.nbm.xml"/>
-    <mapping resource="Client.hbm.xml"/>
+    <mapping class="by.st.opt.payments.dao.pojos.Client" file="" jar="" package="" resource=""/>
   </session-factory>
 </hibernate-configuration>
