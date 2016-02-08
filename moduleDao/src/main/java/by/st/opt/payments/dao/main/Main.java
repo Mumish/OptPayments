@@ -10,16 +10,18 @@ import by.st.opt.payments.dao.db.Dao;
 import by.st.opt.payments.dao.pojos.Account;
 import by.st.opt.payments.dao.pojos.Client;
 import by.st.opt.payments.dao.pojos.CreditCard;
-import by.st.opt.payments.dao.pojos.Order;
+import by.st.opt.payments.dao.pojos.PayOrder;
 import by.st.opt.payments.dao.pojos.Payment;
+import by.st.opt.payments.dao.pojos.Person;
 import by.st.opt.payments.dao.util.HibernateUtil;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import org.apache.log4j.Logger;
-import org.hibernate.Criteria;
 import org.hibernate.Query;
-import org.hibernate.criterion.Restrictions;
+import org.springframework.config.java.context.JavaConfigApplicationContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -39,7 +41,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         try {
-
+            
+            ApplicationContext context
+                    = new ClassPathXmlApplicationContext("springConfig.xml");
+            Person person = (Person) context.getBean("person");
+            System.out.println("use AppContext: " + person.getAddress().getAddress());
             mFillBase();
 
             doHql();
@@ -106,14 +112,14 @@ public class Main {
 
 //////////////////
 //            Dao<Order> daoOrder = new BaseDao<>(Order.class);
-        Order o1 = new Order();
+        PayOrder o1 = new PayOrder();
         o1.setNum("ORD-1" + t.getClientId());
         o1.setPrice(100);
         o1.setDateOpen(new Date());
         o1.setStatusId(1);
 //            daoOrder.saveOrUpdate(o);
 //            Dao<Order> daoOrder = new BaseDao<>(Order.class);
-        Order o2 = new Order();
+        PayOrder o2 = new PayOrder();
         o2.setNum("ORD-2" + t.getClientId());
         o2.setPrice(250);
         o2.setDateOpen(new Date());
@@ -128,12 +134,12 @@ public class Main {
 //
         o1.setClient(t);
         o2.setClient(t);
-        List<Order> orders = new ArrayList<>();
+        List<PayOrder> orders = new ArrayList<>();
         orders.add(o1);
         orders.add(o2);
 
         for (int i = 1; i < 5; i++) {
-            Order o = new Order();
+            PayOrder o = new PayOrder();
             o.setNum("ORD-i" + i + t.getClientId());
             o.setPrice(100 * i);
             o.setDateOpen(new Date());
@@ -198,7 +204,7 @@ public class Main {
         //TODO: Обновляем статус карты клиента, если у нее задолженность
     }
 
-    public void createOrder(Order order) {
+    public void createOrder(PayOrder order) {
 
         //TODO: Создает заказ на указунную сумму и клиента
     }
@@ -221,13 +227,13 @@ public class Main {
         System.out.println("query result (size=" + accounts.size() + ") first: " + accounts.get(0));
         //////
         mPagination(clients.get(0).getClientId());
-        /////criteria
-        
-        Criteria criteria =  getUtil().getSession().createCriteria(Order.class);
-        criteria.add(Restrictions.eq("client", clients.get(0)));
-        System.out.println("do Criteria^ "+ criteria);
-        List<Order> orders = criteria.list();
-        System.out.println("query result (size=" + orders.size() + ") first: " + orders.get(0));
+//        /////criteria
+//
+//        Criteria criteria = getUtil().getSession().createCriteria(PayOrder.class);
+//        criteria.add(Restrictions.eq("client", clients.get(0)));
+//        System.out.println("do Criteria^ " + criteria);
+//        List<PayOrder> orders = criteria.list();
+//        System.out.println("query result (size=" + orders.size() + ") first: " + orders.get(0));
     }
 
     private static void mPagination(long clientId) throws Exception {
@@ -237,8 +243,17 @@ public class Main {
         hql = "SELECT c.orders FROM Client c WHERE c.clientId=:clientId";
         System.out.println("do hql-query: " + hql);
         query = getUtil().getSession().createQuery(hql);
+        //TODO: как узнать, что кэш работает?
         query.setParameter("clientId", clientId);
-        List<Order> orders = query.list();
+        query.setCacheable(true);
+        System.out.println("11111");
+        List<PayOrder> orders = query.list();
+        System.out.println("query result (size=" + orders.size() + ") first: " + orders.get(0));
+        query = getUtil().getSession().createQuery(hql);
+        query.setParameter("clientId", clientId);
+//        query.setCacheable(true);
+        System.out.println("2222");
+        orders = query.list();
         System.out.println("query result (size=" + orders.size() + ") first: " + orders.get(0));
         /////////////
         int startPos = 0;
@@ -246,20 +261,21 @@ public class Main {
         System.out.println("Paging (startPos=" + startPos + ", maxRes=" + maxRes + "): ");
         query.setFirstResult(startPos);
         query.setMaxResults(maxRes);
+        query.setCacheable(true);
         orders = query.list();
         System.out.println("query result (size=" + orders.size() + "):");
-        for (Order order : orders) {
+        for (PayOrder order : orders) {
             System.out.println(order);
         }
         /////////////
-         startPos =startPos+ maxRes;
+        startPos = startPos + maxRes;
         maxRes = 3;
         System.out.println("Paging (startPos=" + startPos + ", maxRes=" + maxRes + "): ");
         query.setFirstResult(startPos);
         query.setMaxResults(maxRes);
         orders = query.list();
         System.out.println("query result (size=" + orders.size() + "):");
-        for (Order order : orders) {
+        for (PayOrder order : orders) {
             System.out.println(order);
         }
     }

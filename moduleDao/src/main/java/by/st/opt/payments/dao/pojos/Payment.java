@@ -35,7 +35,7 @@ public class Payment implements Serializable {
     //это подчиненная таблица
     @OneToOne(fetch = FetchType.LAZY)//@Fetch(value = FetchMode.SELECT) 
     @PrimaryKeyJoinColumn//(name = "idP",referencedColumnName = "idE1")
-    private Order order;
+    private PayOrder order;
 
     public long getPaymentId() {
         return paymentId;
@@ -61,11 +61,11 @@ public class Payment implements Serializable {
         this.datePayment = datePayment;
     }
 
-    public Order getOrder() {
+    public PayOrder getOrder() {
         return order;
     }
 
-    public void setOrder(Order order) {
+    public void setOrder(PayOrder order) {
         this.order = order;
     }
 

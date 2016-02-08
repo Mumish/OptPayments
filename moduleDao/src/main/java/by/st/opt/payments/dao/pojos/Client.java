@@ -93,7 +93,7 @@ public class Client implements Serializable {
     private CreditCard creditCard;
     //это главная таблица в связи
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL)
-    private List<Order> orders;
+    private List<PayOrder> orders;
 
     public long getClientId() {
         return clientId;
@@ -143,11 +143,11 @@ public class Client implements Serializable {
         this.creditCard = creditCard;
     }
 
-    public List<Order> getOrders() {
+    public List<PayOrder> getOrders() {
         return orders;
     }
 
-    public void setOrders(List<Order> orders) {
+    public void setOrders(List<PayOrder> orders) {
         this.orders = orders;
     }
 

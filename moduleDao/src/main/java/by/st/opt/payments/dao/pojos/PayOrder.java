@@ -1,5 +1,6 @@
 package by.st.opt.payments.dao.pojos;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -12,13 +13,16 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 /**
  *
  * @author Mumish
  */
 @Entity
-public class Order {
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+public class PayOrder implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
