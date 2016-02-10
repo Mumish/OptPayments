@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
-import org.springframework.config.java.context.JavaConfigApplicationContext;
+import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -39,28 +39,32 @@ public class Main {
         return util;
     }
 
+    public static void helpMethodSpting(String className, String funcName) {
+        System.out.println(className + " " + funcName + " method");
+
+    }
+
     public static void main(String[] args) throws Exception {
-        try {
-            
-            ApplicationContext context
-                    = new ClassPathXmlApplicationContext("springConfig.xml");
-            Person person = (Person) context.getBean("person");
-            System.out.println("use AppContext: " + person.getAddress().getAddress());
-            mFillBase();
+        testSpring();
 
-            doHql();
-
-            //TODO:Реверс зависимостей имеет смысл только в one-many?
-            //ибо в one-one не увидел разницы по sql
-            ////////////////////
+//        try {
+//
+//           
+//            
+//            mFillBase();
+//
+//            doHql();
+//
+//            //TODO:Реверс зависимостей имеет смысл только в one-many?
+//            //ибо в one-one не увидел разницы по sql
+//            ////////////////////
 //            ClientDao dao = new ClientDao();
 //            dao.flush(1, "sdsd");
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        } finally {
-            util.destroy();
-        }
-
+//        } catch (Exception ex) {
+//            ex.printStackTrace();
+//        } finally {
+//            util.destroy();
+//        }
 //        BaseDao<Employee> dao = new BaseDao();
 //
 ////       Employee t= dao.get(7L, Employee.class);
@@ -72,6 +76,28 @@ public class Main {
 //        t.setLastName("client login2");
 //        dao.saveOrUpdate(t);
 //        HibernateUtil.getSessionFactory().close();
+    }
+
+    private static void testSpring() throws BeansException {
+        ApplicationContext context
+                = new ClassPathXmlApplicationContext("springConfig.xml");
+        Person person = (Person) context.getBean("person");
+        System.out.println("use AppContext name: " + person.getName());
+        System.out.println("use AppContext age: " + person.getAge());
+        System.out.println("use AppContext addr: " + person.getAddress().getAddress());
+
+        Person person2 = (Person) context.getBean("person");
+        System.out.println("use AppContext name: " + person2.getName());
+        System.out.println("use AppContext age: " + person.getAge());
+        System.out.println("use AppContext addr: " + person2.getAddress().getAddress());
+
+        System.out.println("------test scope---");
+        person2.getAddress().setAddress("new addr for singleton");
+        person2.setName("new name for prototype");
+        System.out.println("use AppContext name: " + person.getName());
+        System.out.println("use AppContext addr: " + person.getAddress().getAddress());
+        System.out.println("use AppContext name: " + person2.getName());
+        System.out.println("use AppContext addr: " + person2.getAddress().getAddress());
     }
 
     /**

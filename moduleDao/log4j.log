@@ -2264,3 +2264,162 @@
 2016-02-08 22:01:58,112 INFO  - saveOrUpdate(t):paymentId=2, amount=500.0, datePayment=Mon Feb 08 22:01:58 MSK 2016
 2016-02-08 22:01:58,167 INFO  - Save or update (commit):paymentId=2, amount=500.0, datePayment=Mon Feb 08 22:01:58 MSK 2016
 2016-02-08 22:01:58,370 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/optpayments]
+2016-02-10 19:10:13,634 INFO  - saveOrUpdate
+2016-02-10 19:10:14,683 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-10 19:10:14,733 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-10 19:10:14,765 INFO  - HHH000206: hibernate.properties not found
+2016-02-10 19:10:14,771 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-10 19:10:14,932 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-10 19:10:14,932 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-10 19:10:15,177 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-10 19:10:15,287 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-10 19:10:16,017 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-10 19:10:16,183 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-10 19:10:16,184 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-10 19:10:16,185 INFO  - HHH000006: Autocommit mode: false
+2016-02-10 19:10:16,259 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-10 19:10:17,841 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-10 19:10:18,592 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-10 19:10:18,638 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-10 19:10:19,753 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-10 19:10:19,758 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-10 19:10:19,778 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-10 19:10:19,779 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-10 19:10:21,867 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-10 19:10:23,032 INFO  - HHH000230: Schema export complete
+2016-02-10 19:10:23,680 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 19:10:23,733 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 19:10:23,733 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 19:10:23,734 INFO  - Load class by id:1
+2016-02-10 19:10:23,747 INFO  - get
+2016-02-10 19:10:23,747 INFO  - Get class by id:1
+2016-02-10 19:10:23,749 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 19:10:23,750 INFO  - getTransaction
+2016-02-10 19:10:23,751 INFO  - load
+2016-02-10 19:10:23,751 INFO  - Load class by id:1
+2016-02-10 19:10:23,755 INFO  - setTransaction
+2016-02-10 19:10:23,756 INFO  - delete
+2016-02-10 19:10:23,852 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 19:10:23,853 INFO  - Get class by id:1
+2016-02-10 19:10:23,901 INFO  - get clazz:null
+2016-02-10 21:14:21,400 INFO  - saveOrUpdate
+2016-02-10 21:14:21,602 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-10 21:14:21,612 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-10 21:14:21,614 INFO  - HHH000206: hibernate.properties not found
+2016-02-10 21:14:21,616 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-10 21:14:21,636 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-10 21:14:21,636 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-10 21:14:21,688 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-10 21:14:21,727 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-10 21:14:21,867 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-10 21:14:21,875 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-10 21:14:21,875 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-10 21:14:21,875 INFO  - HHH000006: Autocommit mode: false
+2016-02-10 21:14:21,877 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-10 21:14:22,197 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-10 21:14:22,444 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-10 21:14:22,451 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-10 21:14:22,749 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-10 21:14:22,752 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-10 21:14:22,756 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-10 21:14:22,757 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-10 21:14:23,086 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-10 21:14:23,812 INFO  - HHH000230: Schema export complete
+2016-02-10 21:14:24,072 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 21:14:24,104 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 21:14:24,104 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 21:14:24,104 INFO  - Load class by id:1
+2016-02-10 21:14:24,110 INFO  - get
+2016-02-10 21:14:24,110 INFO  - Get class by id:1
+2016-02-10 21:14:24,111 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 21:14:24,111 INFO  - getTransaction
+2016-02-10 21:14:24,112 INFO  - load
+2016-02-10 21:14:24,112 INFO  - Load class by id:1
+2016-02-10 21:14:24,113 INFO  - setTransaction
+2016-02-10 21:14:24,113 INFO  - delete
+2016-02-10 21:14:24,180 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-10 21:14:24,181 INFO  - Get class by id:1
+2016-02-10 21:14:24,206 INFO  - get clazz:null
+2016-02-10 21:14:31,016 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:14:31 MSK 2016]; root of context hierarchy
+2016-02-10 21:14:31,104 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:14:31,371 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'person' defined in class path resource [springConfig.xml]: Cannot resolve reference to bean 'address' while setting bean property 'address'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'address' defined in class path resource [springConfig.xml]: No matching factory method found: factory method 'getInstance()'. Check that a method with the specified name exists and that it is static.
+2016-02-10 21:15:43,119 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:15:43 MSK 2016]; root of context hierarchy
+2016-02-10 21:15:43,176 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:15:43,525 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-10 21:15:43,530 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-10 21:15:43,532 INFO  - HHH000206: hibernate.properties not found
+2016-02-10 21:15:43,533 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-10 21:15:43,549 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-10 21:15:43,550 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-10 21:15:43,572 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-10 21:15:43,603 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-10 21:15:43,693 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-10 21:15:43,699 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-10 21:15:43,700 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-10 21:15:43,700 INFO  - HHH000006: Autocommit mode: false
+2016-02-10 21:15:43,701 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-10 21:15:43,981 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-10 21:15:44,177 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-10 21:15:44,181 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-10 21:15:44,505 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-10 21:15:44,507 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-10 21:15:44,512 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-10 21:15:44,512 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-10 21:15:44,811 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-10 21:15:45,586 INFO  - HHH000230: Schema export complete
+2016-02-10 21:15:45,811 INFO  - saveOrUpdate(t):clientId=1, fio=client fio2, login=client login2, password=client password
+2016-02-10 21:15:45,874 INFO  - Save or update (commit):clientId=1, fio=client fio2, login=client login2, password=client password
+2016-02-10 21:15:45,875 INFO  - saveOrUpdate(t):paymentId=2, amount=500.0, datePayment=Wed Feb 10 21:15:45 MSK 2016
+2016-02-10 21:15:45,930 INFO  - Save or update (commit):paymentId=2, amount=500.0, datePayment=Wed Feb 10 21:15:45 MSK 2016
+2016-02-10 21:15:46,222 INFO  - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/optpayments]
+2016-02-10 21:16:35,194 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:16:35 MSK 2016]; root of context hierarchy
+2016-02-10 21:16:35,246 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:17:25,978 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:17:25 MSK 2016]; root of context hierarchy
+2016-02-10 21:17:26,048 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:19:36,826 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:19:36 MSK 2016]; root of context hierarchy
+2016-02-10 21:19:36,883 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:20:16,755 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:20:16 MSK 2016]; root of context hierarchy
+2016-02-10 21:20:16,812 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:23:06,934 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:23:06 MSK 2016]; root of context hierarchy
+2016-02-10 21:23:07,003 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:24:01,395 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:24:01 MSK 2016]; root of context hierarchy
+2016-02-10 21:24:01,451 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:26:13,279 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:26:13 MSK 2016]; root of context hierarchy
+2016-02-10 21:26:13,340 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:27:21,115 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:27:21 MSK 2016]; root of context hierarchy
+2016-02-10 21:27:21,172 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:33:16,234 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:33:16 MSK 2016]; root of context hierarchy
+2016-02-10 21:33:16,290 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:34:13,919 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:34:13 MSK 2016]; root of context hierarchy
+2016-02-10 21:34:13,977 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:36:27,697 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:36:27 MSK 2016]; root of context hierarchy
+2016-02-10 21:36:27,755 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:37:09,642 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:37:09 MSK 2016]; root of context hierarchy
+2016-02-10 21:37:09,698 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:39:50,829 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:39:50 MSK 2016]; root of context hierarchy
+2016-02-10 21:39:50,881 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:40:39,362 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:40:39 MSK 2016]; root of context hierarchy
+2016-02-10 21:40:39,418 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:40:50,805 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:40:50 MSK 2016]; root of context hierarchy
+2016-02-10 21:40:50,861 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:41:00,070 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:41:00 MSK 2016]; root of context hierarchy
+2016-02-10 21:41:00,132 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:41:14,412 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:41:14 MSK 2016]; root of context hierarchy
+2016-02-10 21:41:14,467 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:43:11,228 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:43:11 MSK 2016]; root of context hierarchy
+2016-02-10 21:43:11,291 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:46:37,208 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:46:37 MSK 2016]; root of context hierarchy
+2016-02-10 21:46:37,269 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:48:44,534 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:48:44 MSK 2016]; root of context hierarchy
+2016-02-10 21:48:44,595 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:48:56,004 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:48:56 MSK 2016]; root of context hierarchy
+2016-02-10 21:48:56,059 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:48:56,261 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'address' defined in class path resource [springConfig.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'flats' of bean class [by.st.opt.payments.dao.pojos.Address]: Bean property 'flats' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2016-02-10 21:50:08,864 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:50:08 MSK 2016]; root of context hierarchy
+2016-02-10 21:50:08,934 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:53:51,173 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:53:51 MSK 2016]; root of context hierarchy
+2016-02-10 21:53:51,230 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:54:13,033 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:54:13 MSK 2016]; root of context hierarchy
+2016-02-10 21:54:13,093 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-10 21:55:12,441 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Wed Feb 10 21:55:12 MSK 2016]; root of context hierarchy
+2016-02-10 21:55:12,502 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]

@@ -12,4 +12,5 @@ package by.st.opt.payments.dao.pojos;
 public interface IAddress {
 
     public String getAddress();
+    public void setAddress(String address);
 }

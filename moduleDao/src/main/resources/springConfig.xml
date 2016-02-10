@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
   
-    <bean id="person" class="by.st.opt.payments.dao.pojos.Person">
-        <property name="address" ref="address" />
+    <bean id="person" class="by.st.opt.payments.dao.pojos.Person" scope="prototype"
+          p:name="Mike" p:address-ref="address" p:age="#{27}">  
     </bean>
 
-    <bean id="address" class="by.st.opt.payments.dao.pojos.Address"/>
-
+    <bean id="address" class="by.st.opt.payments.dao.pojos.Address" factory-method="getInstance" init-method="init" destroy-method="destroy">
+        <property name="flats">
+            <list>
+                <value>10</value>
+                <value>20</value>
+                <value>40</value>
+            </list>
+        </property>
+    </bean>
 </beans>
