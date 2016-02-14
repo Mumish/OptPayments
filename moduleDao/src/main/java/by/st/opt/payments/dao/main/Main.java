@@ -21,12 +21,16 @@ import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Controller;
 
 /**
  *
  * @author Mumish
  */
+//@Controller
+//@Scope("prototype")
 public class Main {
 
     private static Logger log = Logger.getLogger(Main.class);
@@ -81,6 +85,8 @@ public class Main {
     private static void testSpring() throws BeansException {
         ApplicationContext context
                 = new ClassPathXmlApplicationContext("springConfig.xml");
+        System.out.println("context configured(Singletones inited)...");
+        
         Person person = (Person) context.getBean("person");
         System.out.println("use AppContext name: " + person.getName());
         System.out.println("use AppContext age: " + person.getAge());

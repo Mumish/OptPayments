@@ -2,12 +2,15 @@ package by.st.opt.payments.dao.pojos;
 
 import by.st.opt.payments.dao.main.Main;
 import java.util.Collection;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Mumish
  */
-public class Address implements IAddress {
+@Component
+public class AddressForFilter implements IAddress, InitializingBean {
 
     String addr;
 
@@ -35,10 +38,10 @@ public class Address implements IAddress {
         return addr + ". flats: " + flatt.toString();
     }
 
-    public static Address getInstance() {
-        Address adrInst = new Address();
+    public static AddressForFilter getInstance() {
+        AddressForFilter adrInst = new AddressForFilter();
 
-        adrInst.addr = "Address: this is instance addres";
+        adrInst.addr = "AddressForFilter: this is instance addres";
         return adrInst;
 
     }
@@ -54,6 +57,11 @@ public class Address implements IAddress {
 
     public void destroy() {
         Main.helpMethodSpting(this.getClass().getCanonicalName(), "xml-destroy");
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        Main.helpMethodSpting(this.getClass().getCanonicalName(), "interface-init");
     }
 
 }

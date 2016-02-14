@@ -4,16 +4,28 @@ import by.st.opt.payments.dao.main.Main;
 import java.io.Serializable;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Mumish
  */
+@Component
+@Scope("prototype")
 public class Person implements Serializable, InitializingBean, DisposableBean {
 
+    @Value("Mike")
     private String name;
+    @Value("#{27}")
     private int age;
 
+    @Autowired
+//    @Qualifier("address")
+//    @Qualifier("addressForFilter")
     private IAddress address;
 
     public String getName() {
