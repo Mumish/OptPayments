@@ -3,21 +3,36 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc
- http://www.springframework.org/schema/mvc/spring-mvc.xsd
- http://www.springframework.org/schema/beans
- http://www.springframework.org/schema/beans/spring-beans.xsd
- http://www.springframework.org/schema/context
- http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
+            http://www.springframework.org/schema/mvc/spring-mvc.xsd
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+>
     <context:annotation-config/>
     <context:component-scan base-package="package by.st.opt.payments.dao.pojos">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
-        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
     </context:component-scan>
-    <context:component-scan base-package="by.st.opt.payments.dao.main">
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+    <context:component-scan base-package="by.st.opt.payments.dao.pojos.aspects">
+        <context:include-filter type="annotation" expression="org.aspectj.lang.annotation.Aspect"/>
     </context:component-scan>
-   
+    <aop:aspectj-autoproxy/>
+    
+    <!-- configure properties of aspect here as normal -->
 
+    <!--
+    <bean id="address" class="by.st.opt.payments.dao.pojos.Address" factory-method="getInstance" init-method="init" destroy-method="destroy">
+        <property name="flats">
+            <list>
+                <value>10</value>
+                <value>20</value>
+                <value>40</value>
+            </list>
+        </property>
+    </bean>    -->
 </beans>

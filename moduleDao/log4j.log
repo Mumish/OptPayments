@@ -2644,3 +2644,340 @@
 2016-02-14 19:57:08,784 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Sun Feb 14 19:57:08 MSK 2016]; root of context hierarchy
 2016-02-14 19:57:08,844 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
 2016-02-14 19:57:09,207 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:16:11,409 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:16:11 MSK 2016]; root of context hierarchy
+2016-02-15 20:16:11,499 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:16:12,286 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:18:36,352 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:18:36 MSK 2016]; root of context hierarchy
+2016-02-15 20:18:36,423 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:18:36,970 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:20:19,646 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:20:19 MSK 2016]; root of context hierarchy
+2016-02-15 20:20:19,727 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:20:20,187 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:21:47,460 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:21:47 MSK 2016]; root of context hierarchy
+2016-02-15 20:21:47,528 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:21:47,939 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:23:03,708 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:23:03 MSK 2016]; root of context hierarchy
+2016-02-15 20:23:03,779 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:23:04,201 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-15 20:23:45,271 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fcfe4b2: startup date [Mon Feb 15 20:23:45 MSK 2016]; root of context hierarchy
+2016-02-15 20:23:45,341 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-15 20:23:45,774 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-16 23:33:29,870 INFO  - saveOrUpdate
+2016-02-16 23:33:30,315 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-16 23:33:30,329 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-16 23:33:30,335 INFO  - HHH000206: hibernate.properties not found
+2016-02-16 23:33:30,338 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-16 23:33:30,426 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-16 23:33:30,427 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-16 23:33:30,536 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-16 23:33:30,616 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-16 23:33:31,137 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-16 23:33:31,183 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-16 23:33:31,184 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-16 23:33:31,184 INFO  - HHH000006: Autocommit mode: false
+2016-02-16 23:33:31,209 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-16 23:33:32,182 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-16 23:33:32,590 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-16 23:33:32,626 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-16 23:33:33,045 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-16 23:33:33,048 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-16 23:33:33,062 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-16 23:33:33,063 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-16 23:33:33,723 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-16 23:33:34,672 INFO  - HHH000230: Schema export complete
+2016-02-16 23:33:34,987 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:33:35,017 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:33:35,018 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:33:35,018 INFO  - Load class by id:1
+2016-02-16 23:33:35,024 INFO  - get
+2016-02-16 23:33:35,024 INFO  - Get class by id:1
+2016-02-16 23:33:35,025 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:33:35,026 INFO  - getTransaction
+2016-02-16 23:33:35,026 INFO  - load
+2016-02-16 23:33:35,027 INFO  - Load class by id:1
+2016-02-16 23:33:35,028 INFO  - setTransaction
+2016-02-16 23:33:35,028 INFO  - delete
+2016-02-16 23:33:35,105 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:33:35,105 INFO  - Get class by id:1
+2016-02-16 23:33:35,127 INFO  - get clazz:null
+2016-02-16 23:37:42,444 INFO  - saveOrUpdate
+2016-02-16 23:37:42,668 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-16 23:37:42,677 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-16 23:37:42,679 INFO  - HHH000206: hibernate.properties not found
+2016-02-16 23:37:42,681 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-16 23:37:42,701 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-16 23:37:42,701 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-16 23:37:42,757 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-16 23:37:42,798 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-16 23:37:42,928 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-16 23:37:42,936 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-16 23:37:42,937 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-16 23:37:42,937 INFO  - HHH000006: Autocommit mode: false
+2016-02-16 23:37:42,939 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-16 23:37:43,248 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-16 23:37:43,521 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-16 23:37:43,528 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-16 23:37:43,815 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-16 23:37:43,818 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-16 23:37:43,823 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-16 23:37:43,823 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-16 23:37:44,167 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-16 23:37:44,905 INFO  - HHH000230: Schema export complete
+2016-02-16 23:37:45,123 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:37:45,149 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:37:45,149 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:37:45,149 INFO  - Load class by id:1
+2016-02-16 23:37:45,153 INFO  - get
+2016-02-16 23:37:45,154 INFO  - Get class by id:1
+2016-02-16 23:37:45,155 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:37:45,155 INFO  - getTransaction
+2016-02-16 23:37:45,156 INFO  - load
+2016-02-16 23:37:45,156 INFO  - Load class by id:1
+2016-02-16 23:37:45,157 INFO  - setTransaction
+2016-02-16 23:37:45,157 INFO  - delete
+2016-02-16 23:37:45,193 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:37:45,193 INFO  - Get class by id:1
+2016-02-16 23:37:45,206 INFO  - get clazz:null
+2016-02-16 23:38:54,245 INFO  - saveOrUpdate
+2016-02-16 23:38:54,424 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-16 23:38:54,431 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-16 23:38:54,433 INFO  - HHH000206: hibernate.properties not found
+2016-02-16 23:38:54,435 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-16 23:38:54,459 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-16 23:38:54,460 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-16 23:38:54,514 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-16 23:38:54,552 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-16 23:38:54,691 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-16 23:38:54,699 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-16 23:38:54,699 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-16 23:38:54,699 INFO  - HHH000006: Autocommit mode: false
+2016-02-16 23:38:54,701 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-16 23:38:55,004 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-16 23:38:55,254 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-16 23:38:55,262 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-16 23:38:55,580 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-16 23:38:55,582 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-16 23:38:55,587 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-16 23:38:55,588 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-16 23:38:55,887 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-16 23:38:56,597 INFO  - HHH000230: Schema export complete
+2016-02-16 23:38:56,792 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:38:56,819 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:38:56,819 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:38:56,819 INFO  - Load class by id:1
+2016-02-16 23:38:56,824 INFO  - get
+2016-02-16 23:38:56,824 INFO  - Get class by id:1
+2016-02-16 23:38:56,825 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:38:56,825 INFO  - getTransaction
+2016-02-16 23:38:56,826 INFO  - load
+2016-02-16 23:38:56,826 INFO  - Load class by id:1
+2016-02-16 23:38:56,827 INFO  - setTransaction
+2016-02-16 23:38:56,827 INFO  - delete
+2016-02-16 23:38:56,873 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:38:56,873 INFO  - Get class by id:1
+2016-02-16 23:38:56,886 INFO  - get clazz:null
+2016-02-16 23:52:33,904 INFO  - saveOrUpdate
+2016-02-16 23:52:34,095 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-16 23:52:34,103 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-16 23:52:34,105 INFO  - HHH000206: hibernate.properties not found
+2016-02-16 23:52:34,107 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-16 23:52:34,129 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-16 23:52:34,129 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-16 23:52:34,194 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-16 23:52:34,240 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-16 23:52:34,365 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-16 23:52:34,373 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-16 23:52:34,374 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-16 23:52:34,374 INFO  - HHH000006: Autocommit mode: false
+2016-02-16 23:52:34,375 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-16 23:52:34,688 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-16 23:52:34,975 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-16 23:52:34,982 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-16 23:52:35,268 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-16 23:52:35,270 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-16 23:52:35,275 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-16 23:52:35,276 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-16 23:52:35,583 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-16 23:52:36,323 INFO  - HHH000230: Schema export complete
+2016-02-16 23:52:36,538 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:52:36,576 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:52:36,576 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:52:36,576 INFO  - Load class by id:1
+2016-02-16 23:52:36,582 INFO  - get
+2016-02-16 23:52:36,582 INFO  - Get class by id:1
+2016-02-16 23:52:36,583 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:52:36,584 INFO  - getTransaction
+2016-02-16 23:52:36,584 INFO  - load
+2016-02-16 23:52:36,584 INFO  - Load class by id:1
+2016-02-16 23:52:36,585 INFO  - setTransaction
+2016-02-16 23:52:36,585 INFO  - delete
+2016-02-16 23:52:36,619 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:52:36,619 INFO  - Get class by id:1
+2016-02-16 23:52:36,636 INFO  - get clazz:null
+2016-02-16 23:55:54,842 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Tue Feb 16 23:55:54 MSK 2016]; root of context hierarchy
+2016-02-16 23:55:54,903 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-16 23:56:12,225 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Tue Feb 16 23:56:12 MSK 2016]; root of context hierarchy
+2016-02-16 23:56:12,286 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-16 23:57:56,002 INFO  - saveOrUpdate
+2016-02-16 23:57:56,186 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-16 23:57:56,194 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-16 23:57:56,196 INFO  - HHH000206: hibernate.properties not found
+2016-02-16 23:57:56,197 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-16 23:57:56,223 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-16 23:57:56,223 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-16 23:57:56,279 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-16 23:57:56,320 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-16 23:57:56,423 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-16 23:57:56,430 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-16 23:57:56,431 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-16 23:57:56,431 INFO  - HHH000006: Autocommit mode: false
+2016-02-16 23:57:56,433 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-16 23:57:56,780 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-16 23:57:57,040 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-16 23:57:57,048 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-16 23:57:57,334 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-16 23:57:57,337 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-16 23:57:57,342 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-16 23:57:57,342 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-16 23:57:57,653 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-16 23:57:58,373 INFO  - HHH000230: Schema export complete
+2016-02-16 23:57:58,566 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:57:58,601 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:57:58,601 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:57:58,602 INFO  - Load class by id:1
+2016-02-16 23:57:58,606 INFO  - get
+2016-02-16 23:57:58,607 INFO  - Get class by id:1
+2016-02-16 23:57:58,607 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:57:58,608 INFO  - getTransaction
+2016-02-16 23:57:58,609 INFO  - load
+2016-02-16 23:57:58,609 INFO  - Load class by id:1
+2016-02-16 23:57:58,610 INFO  - setTransaction
+2016-02-16 23:57:58,610 INFO  - delete
+2016-02-16 23:57:58,644 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-16 23:57:58,644 INFO  - Get class by id:1
+2016-02-16 23:57:58,658 INFO  - get clazz:null
+2016-02-16 23:58:02,871 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Tue Feb 16 23:58:02 MSK 2016]; root of context hierarchy
+2016-02-16 23:58:02,932 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-16 23:58:03,287 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:00:35,438 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:00:35 MSK 2016]; root of context hierarchy
+2016-02-17 00:00:35,501 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:00:35,863 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:03:06,501 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:03:06 MSK 2016]; root of context hierarchy
+2016-02-17 00:03:06,559 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:07:35,325 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:07:35 MSK 2016]; root of context hierarchy
+2016-02-17 00:07:35,383 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:07:35,770 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:08:28,101 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:08:28 MSK 2016]; root of context hierarchy
+2016-02-17 00:08:28,159 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:08:28,538 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:08:38,556 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:08:38 MSK 2016]; root of context hierarchy
+2016-02-17 00:08:38,611 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:08:39,014 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:09:27,059 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:09:27 MSK 2016]; root of context hierarchy
+2016-02-17 00:09:27,115 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:09:27,501 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:10:09,889 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:10:09 MSK 2016]; root of context hierarchy
+2016-02-17 00:10:09,947 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:10:10,375 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:11:29,070 INFO  - saveOrUpdate
+2016-02-17 00:11:29,296 INFO  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-17 00:11:29,310 INFO  - HHH000412: Hibernate Core {4.3.6.Final}
+2016-02-17 00:11:29,313 INFO  - HHH000206: hibernate.properties not found
+2016-02-17 00:11:29,315 INFO  - HHH000021: Bytecode provider name : javassist
+2016-02-17 00:11:29,346 INFO  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-17 00:11:29,346 INFO  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-17 00:11:29,406 WARN  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-02-17 00:11:29,445 INFO  - HHH000041: Configured SessionFactory: null
+2016-02-17 00:11:29,548 WARN  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-17 00:11:29,555 INFO  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/optpayments]
+2016-02-17 00:11:29,556 INFO  - HHH000046: Connection properties: {user=root, password=****}
+2016-02-17 00:11:29,556 INFO  - HHH000006: Autocommit mode: false
+2016-02-17 00:11:29,558 INFO  - HHH000115: Hibernate connection pool size: 10 (min=1)
+2016-02-17 00:11:29,891 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-02-17 00:11:30,226 INFO  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-17 00:11:30,236 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-17 00:11:30,526 INFO  - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-02-17 00:11:30,529 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2016-02-17 00:11:30,534 INFO  - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2016-02-17 00:11:30,535 WARN  - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2016-02-17 00:11:30,849 INFO  - HHH000227: Running hbm2ddl schema export
+2016-02-17 00:11:31,548 INFO  - HHH000230: Schema export complete
+2016-02-17 00:11:31,760 INFO  - saveOrUpdate(t):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-17 00:11:31,793 INFO  - Save or update (commit):clientId=1, fio=test fio, login=test login, password=test password
+2016-02-17 00:11:31,793 INFO  - inserting clientId=1, fio=test fio, login=test login, password=test password
+2016-02-17 00:11:31,793 INFO  - Load class by id:1
+2016-02-17 00:11:31,798 INFO  - get
+2016-02-17 00:11:31,798 INFO  - Get class by id:1
+2016-02-17 00:11:31,799 INFO  - get clazz:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-17 00:11:31,800 INFO  - getTransaction
+2016-02-17 00:11:31,800 INFO  - load
+2016-02-17 00:11:31,800 INFO  - Load class by id:1
+2016-02-17 00:11:31,801 INFO  - setTransaction
+2016-02-17 00:11:31,802 INFO  - delete
+2016-02-17 00:11:31,847 INFO  - Delete:clientId=1, fio=test fio, login=test login, password=test password
+2016-02-17 00:11:31,848 INFO  - Get class by id:1
+2016-02-17 00:11:31,863 INFO  - get clazz:null
+2016-02-17 00:12:07,332 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:12:07 MSK 2016]; root of context hierarchy
+2016-02-17 00:12:07,392 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:12:07,791 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:13:03,959 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:13:03 MSK 2016]; root of context hierarchy
+2016-02-17 00:13:04,017 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:13:04,399 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:15:59,276 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:15:59 MSK 2016]; root of context hierarchy
+2016-02-17 00:15:59,349 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:15:59,728 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:16:29,611 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73ad2d6: startup date [Wed Feb 17 00:16:29 MSK 2016]; root of context hierarchy
+2016-02-17 00:16:29,690 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:16:30,234 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:17:55,710 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:17:55 MSK 2016]; root of context hierarchy
+2016-02-17 00:17:55,769 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:17:56,159 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:19:56,823 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:19:56 MSK 2016]; root of context hierarchy
+2016-02-17 00:19:56,880 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:19:57,382 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:19:57,804 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 incompatible number of arguments to pointcut, expected 1 found 0
+2016-02-17 00:22:39,526 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:22:39 MSK 2016]; root of context hierarchy
+2016-02-17 00:22:39,584 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:22:40,039 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:22:40,451 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 incompatible number of arguments to pointcut, expected 1 found 0
+2016-02-17 00:24:45,819 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:24:45 MSK 2016]; root of context hierarchy
+2016-02-17 00:24:45,875 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:25:24,318 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:25:24 MSK 2016]; root of context hierarchy
+2016-02-17 00:25:24,377 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:25:24,754 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:25:25,148 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 incompatible number of arguments to pointcut, expected 1 found 0
+2016-02-17 00:26:10,230 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:26:10 MSK 2016]; root of context hierarchy
+2016-02-17 00:26:10,289 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:26:10,735 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:26:22,708 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:26:22 MSK 2016]; root of context hierarchy
+2016-02-17 00:26:22,767 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:26:23,153 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:27:02,043 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:27:02 MSK 2016]; root of context hierarchy
+2016-02-17 00:27:02,102 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:27:02,498 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:27:02,869 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 17
+intercept(String name)
+                 ^^^^
+
+2016-02-17 00:27:16,390 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:27:16 MSK 2016]; root of context hierarchy
+2016-02-17 00:27:16,450 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:27:16,837 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:27:29,975 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:27:29 MSK 2016]; root of context hierarchy
+2016-02-17 00:27:30,033 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:27:30,429 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:28:25,956 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:28:25 MSK 2016]; root of context hierarchy
+2016-02-17 00:28:26,014 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:28:26,412 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:28:45,697 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:28:45 MSK 2016]; root of context hierarchy
+2016-02-17 00:28:45,754 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:28:46,138 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:29:29,733 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:29:29 MSK 2016]; root of context hierarchy
+2016-02-17 00:29:29,788 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:29:37,888 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:29:37 MSK 2016]; root of context hierarchy
+2016-02-17 00:29:37,946 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:29:52,569 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:29:52 MSK 2016]; root of context hierarchy
+2016-02-17 00:29:52,632 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:29:53,022 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]
+2016-02-17 00:30:09,337 INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5eb5c224: startup date [Wed Feb 17 00:30:09 MSK 2016]; root of context hierarchy
+2016-02-17 00:30:09,395 INFO  - Loading XML bean definitions from class path resource [springConfig.xml]
+2016-02-17 00:30:09,776 INFO  - Overriding bean definition for bean 'addressForFilter' with a different definition: replacing [Generic bean: class [by.st.opt.payments.dao.pojos.AddressForFilter]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Mumish\payments\moduleDao\target\classes\by\st\opt\payments\dao\pojos\AddressForFilter.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=config; factoryMethodName=addressForFilter; initMethodName=null; destroyMethodName=(inferred); defined in by.st.opt.payments.dao.pojos.Config]

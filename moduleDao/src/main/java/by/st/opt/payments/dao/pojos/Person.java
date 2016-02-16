@@ -25,7 +25,7 @@ public class Person implements Serializable, InitializingBean, DisposableBean {
 
     @Autowired
 //    @Qualifier("address")
-//    @Qualifier("addressForFilter")
+    @Qualifier("addressForFilter")
     private IAddress address;
 
     public String getName() {

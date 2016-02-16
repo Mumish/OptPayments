@@ -3,13 +3,14 @@ package by.st.opt.payments.dao.pojos;
 import by.st.opt.payments.dao.main.Main;
 import java.util.Collection;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Mumish
  */
-@Component
+@Component("addressForFilter")
 public class AddressForFilter implements IAddress, InitializingBean {
 
     String addr;

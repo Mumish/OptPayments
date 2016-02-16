@@ -13,6 +13,7 @@ import by.st.opt.payments.dao.pojos.CreditCard;
 import by.st.opt.payments.dao.pojos.PayOrder;
 import by.st.opt.payments.dao.pojos.Payment;
 import by.st.opt.payments.dao.pojos.Person;
+import by.st.opt.payments.dao.pojos.aspects.TaskService;
 import by.st.opt.payments.dao.util.HibernateUtil;
 import java.util.ArrayList;
 import java.util.Date;
@@ -21,9 +22,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.stereotype.Controller;
 
 /**
  *
@@ -86,7 +85,13 @@ public class Main {
         ApplicationContext context
                 = new ClassPathXmlApplicationContext("springConfig.xml");
         System.out.println("context configured(Singletones inited)...");
-        
+
+        //Aspects
+        TaskService service = (TaskService) context.getBean("taskService");
+        service.performJob();
+        service.performJob("jobName");
+
+        //Autowire
         Person person = (Person) context.getBean("person");
         System.out.println("use AppContext name: " + person.getName());
         System.out.println("use AppContext age: " + person.getAge());
