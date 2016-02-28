@@ -5,7 +5,9 @@
  */
 package by.st.opt.payments.dao.main;
 
+import by.it.model.enums.UserProfileType;
 import by.st.opt.payments.dao.db.BaseDao;
+import by.st.opt.payments.dao.db.ClientDao;
 import by.st.opt.payments.dao.db.Dao;
 import by.st.opt.payments.dao.pojos.Account;
 import by.st.opt.payments.dao.pojos.Client;
@@ -13,6 +15,8 @@ import by.st.opt.payments.dao.pojos.CreditCard;
 import by.st.opt.payments.dao.pojos.PayOrder;
 import by.st.opt.payments.dao.pojos.Payment;
 import by.st.opt.payments.dao.pojos.Person;
+import by.st.opt.payments.dao.pojos.User;
+import by.st.opt.payments.dao.pojos.UserProfile;
 import by.st.opt.payments.dao.pojos.aspects.TaskService;
 import by.st.opt.payments.dao.util.HibernateUtil;
 import java.util.ArrayList;
@@ -48,37 +52,24 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        testSpring();
+//        testSpring();
 
-//        try {
-//
-//           
-//            
-//            mFillBase();
-//
-//            doHql();
-//
-//            //TODO:Реверс зависимостей имеет смысл только в one-many?
-//            //ибо в one-one не увидел разницы по sql
-//            ////////////////////
-//            ClientDao dao = new ClientDao();
-//            dao.flush(1, "sdsd");
-//        } catch (Exception ex) {
-//            ex.printStackTrace();
-//        } finally {
-//            util.destroy();
-//        }
-//        BaseDao<Employee> dao = new BaseDao();
-//
-////       Employee t= dao.get(7L, Employee.class);
-////       
-////        System.out.println(t.toString());
-//        Employee t = new Employee();
-////        t.setId(7);
-//        t.setFirstName("client fio2");
-//        t.setLastName("client login2");
-//        dao.saveOrUpdate(t);
-//        HibernateUtil.getSessionFactory().close();
+        try {
+
+            mFillBase();
+
+            doHql();
+
+            //TODO:Реверс зависимостей имеет смысл только в one-many?
+            //ибо в one-one не увидел разницы по sql
+            ////////////////////
+            ClientDao dao = new ClientDao();
+            dao.flush(1, "sdsd");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        } finally {
+            util.destroy();
+        }
     }
 
     private static void testSpring() throws BeansException {
@@ -121,6 +112,31 @@ public class Main {
 /////
 //        session.getTransaction().commit();
 //        session.close();
+///////////для проекта SpringSecure
+///////////////////
+        Dao<User> daoUser = new BaseDao<>(User.class);
+        User u = new User();
+
+        u.setUserName("UserName");
+
+        u.setPassword("pass");
+
+        u.setFirstName("first");
+
+        u.setLastName("last");
+
+        u.setEmail("email");
+
+        
+        Dao<UserProfile> daoUserP = new BaseDao<>(UserProfile.class);
+        
+        UserProfile prof = new UserProfile();
+        prof.setType(UserProfileType.ADMIN);
+        daoUserP.saveOrUpdate(prof);
+        u.getUserProfiles().add(prof);
+        daoUser.saveOrUpdate(u);
+
+/////////////////////////        
 ///////////////////
         Dao<Client> daoClient = new BaseDao<>(Client.class);
         Client t = new Client();

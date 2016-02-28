@@ -22,7 +22,7 @@
         <context:include-filter type="annotation" expression="org.aspectj.lang.annotation.Aspect"/>
     </context:component-scan>
     <aop:aspectj-autoproxy/>
-    
+    <bean id="workWork" class="by.st.opt.payments.dao.pojos.aspects.Work"/>
     <!-- configure properties of aspect here as normal -->
 
     <!--

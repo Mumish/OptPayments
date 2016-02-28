@@ -18,6 +18,8 @@
         <mapping class="by.st.opt.payments.dao.pojos.CreditCard"/>
         <mapping class="by.st.opt.payments.dao.pojos.PayOrder"/>
         <mapping class="by.st.opt.payments.dao.pojos.Payment"/>
+        <mapping class="by.st.opt.payments.dao.pojos.User"/>
+        <mapping class="by.st.opt.payments.dao.pojos.UserProfile"/>
     
     </session-factory>
 </hibernate-configuration>
